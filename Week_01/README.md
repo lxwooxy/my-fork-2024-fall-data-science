@@ -13,7 +13,7 @@
 0. [Setting up github.](https://github.com/CUNYTechPrep/2024-DS-Wed/blob/main/Week_01/setting-up-github.md) 
 	* Once a fellow is able to: 
 	* Push to their fork. 
-	* Put the link in the HW Submssion sheet. 
+	* Put the link in the HW Submission sheet. 
 	* Then, they go to a breakout room. 
 0. Exercise in breakout rooms.
 0. When there is 15min left in class.
