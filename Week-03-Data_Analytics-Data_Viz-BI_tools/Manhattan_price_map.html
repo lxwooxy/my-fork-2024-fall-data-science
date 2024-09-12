@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fa496ef609752b1d99b5b5e685ff0675 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fa496ef609752b1d99b5b5e685ff0675" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fa496ef609752b1d99b5b5e685ff0675 = L.map(
+                "map_fa496ef609752b1d99b5b5e685ff0675",
+                {
+                    center: [40.76511785519922, -73.97465608794947],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7b264fcd435cb968238c9f394e8993aa = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+            var circle_marker_bffe6a7867ac20024ceb86ccb39dfedb = L.circleMarker(
+                [40.71013820512821, -74.01652307692308],
+                {"bubblingMouseEvents": true, "color": "#fff300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff300ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_f417f959046577f1b8c2414e18155493 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0329c9aa8faf977f3b003c167394eb12 = $(`<div id="html_0329c9aa8faf977f3b003c167394eb12" style="width: 100.0%; height: 100.0%;">Battery Park City: $237.17</div>`)[0];
+                popup_f417f959046577f1b8c2414e18155493.setContent(html_0329c9aa8faf977f3b003c167394eb12);
+            
+        
+
+        circle_marker_bffe6a7867ac20024ceb86ccb39dfedb.bindPopup(popup_f417f959046577f1b8c2414e18155493)
+        ;
+
+        
+    
+    
+            var circle_marker_4a8739c1a22f9f3ded4a1fb5ebf0dfb4 = L.circleMarker(
+                [40.74485192857143, -73.99799716071428],
+                {"bubblingMouseEvents": true, "color": "#eaf500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eaf500ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_4c5885655e469b5e2b37aa478335c5f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4b63f4908201592889e7ee70718e85c = $(`<div id="html_a4b63f4908201592889e7ee70718e85c" style="width: 100.0%; height: 100.0%;">Chelsea: $216.91</div>`)[0];
+                popup_4c5885655e469b5e2b37aa478335c5f3.setContent(html_a4b63f4908201592889e7ee70718e85c);
+            
+        
+
+        circle_marker_4a8739c1a22f9f3ded4a1fb5ebf0dfb4.bindPopup(popup_4c5885655e469b5e2b37aa478335c5f3)
+        ;
+
+        
+    
+    
+            var circle_marker_f688af8b6497e7a1448cc6af5293cdb6 = L.circleMarker(
+                [40.71579406169666, -73.99401681233932],
+                {"bubblingMouseEvents": true, "color": "#65b300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#65b300ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_8c4012f18410893f012c926d470d1ca2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af9cab3cd2247cab3aeb10c188b4e92d = $(`<div id="html_af9cab3cd2247cab3aeb10c188b4e92d" style="width: 100.0%; height: 100.0%;">Chinatown: $138.67</div>`)[0];
+                popup_8c4012f18410893f012c926d470d1ca2.setContent(html_af9cab3cd2247cab3aeb10c188b4e92d);
+            
+        
+
+        circle_marker_f688af8b6497e7a1448cc6af5293cdb6.bindPopup(popup_8c4012f18410893f012c926d470d1ca2)
+        ;
+
+        
+    
+    
+            var circle_marker_acd6283883c32b03bc94464109b13aaa = L.circleMarker(
+                [40.71378422222222, -74.00371088888889],
+                {"bubblingMouseEvents": true, "color": "#89c400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#89c400ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_cf95a2574afe7323055b27dcd227c7c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a202cc41454ab8d2fbb650447e599ebd = $(`<div id="html_a202cc41454ab8d2fbb650447e599ebd" style="width: 100.0%; height: 100.0%;">Civic Center: $159.44</div>`)[0];
+                popup_cf95a2574afe7323055b27dcd227c7c4.setContent(html_a202cc41454ab8d2fbb650447e599ebd);
+            
+        
+
+        circle_marker_acd6283883c32b03bc94464109b13aaa.bindPopup(popup_cf95a2574afe7323055b27dcd227c7c4)
+        ;
+
+        
+    
+    
+            var circle_marker_3929d34f3a8b2e8893449e28c120c534 = L.circleMarker(
+                [40.79605320679321, -73.94239264735265],
+                {"bubblingMouseEvents": true, "color": "#62b100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#62b100ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_88498bb06777f428161afb62400f9739 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4182b05512ea2b7e6e95052465341e1 = $(`<div id="html_f4182b05512ea2b7e6e95052465341e1" style="width: 100.0%; height: 100.0%;">East Harlem: $136.63</div>`)[0];
+                popup_88498bb06777f428161afb62400f9739.setContent(html_f4182b05512ea2b7e6e95052465341e1);
+            
+        
+
+        circle_marker_3929d34f3a8b2e8893449e28c120c534.bindPopup(popup_88498bb06777f428161afb62400f9739)
+        ;
+
+        
+    
+    
+            var circle_marker_65f0d4d206c7c88f83a53c998bf170e3 = L.circleMarker(
+                [40.72669690406121, -73.98400185403177],
+                {"bubblingMouseEvents": true, "color": "#a2d100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a2d100ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_d58a8fe97abc78e0774d15f8b7aab38c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c6a819bb23ca279db7fa2ddef0ca908 = $(`<div id="html_1c6a819bb23ca279db7fa2ddef0ca908" style="width: 100.0%; height: 100.0%;">East Village: $174.72</div>`)[0];
+                popup_d58a8fe97abc78e0774d15f8b7aab38c.setContent(html_1c6a819bb23ca279db7fa2ddef0ca908);
+            
+        
+
+        circle_marker_65f0d4d206c7c88f83a53c998bf170e3.bindPopup(popup_d58a8fe97abc78e0774d15f8b7aab38c)
+        ;
+
+        
+    
+    
+            var circle_marker_06a970433feb9d18e0097abcfdf75c0c = L.circleMarker(
+                [40.70677777777777, -74.00865624521072],
+                {"bubblingMouseEvents": true, "color": "#ff4d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff4d00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_3330a1cb22fd775515e238e73447b1ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7802cd388bdf73375f9a321bd0f639de = $(`<div id="html_7802cd388bdf73375f9a321bd0f639de" style="width: 100.0%; height: 100.0%;">Financial District: $335.39</div>`)[0];
+                popup_3330a1cb22fd775515e238e73447b1ec.setContent(html_7802cd388bdf73375f9a321bd0f639de);
+            
+        
+
+        circle_marker_06a970433feb9d18e0097abcfdf75c0c.bindPopup(popup_3330a1cb22fd775515e238e73447b1ec)
+        ;
+
+        
+    
+    
+            var circle_marker_07542e5edc2f8a4c8278c237784112af = L.circleMarker(
+                [40.741155324675326, -73.98836454545454],
+                {"bubblingMouseEvents": true, "color": "#ff1700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1700ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_0b79fddef0369f2398dc0e54fd97d62a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6231c404b7f3f4ba4d97fe5209f39d6 = $(`<div id="html_f6231c404b7f3f4ba4d97fe5209f39d6" style="width: 100.0%; height: 100.0%;">Flatiron District: $367.42</div>`)[0];
+                popup_0b79fddef0369f2398dc0e54fd97d62a.setContent(html_f6231c404b7f3f4ba4d97fe5209f39d6);
+            
+        
+
+        circle_marker_07542e5edc2f8a4c8278c237784112af.bindPopup(popup_0b79fddef0369f2398dc0e54fd97d62a)
+        ;
+
+        
+    
+    
+            var circle_marker_db843b99461b0b9c1659fed59f75cc47 = L.circleMarker(
+                [40.73542796923077, -73.9843324],
+                {"bubblingMouseEvents": true, "color": "#c2e100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c2e100ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_1e489ceb9099b5601231901a55f9858a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46e6beeb2a40f9acb5f5673f1f38ca64 = $(`<div id="html_46e6beeb2a40f9acb5f5673f1f38ca64" style="width: 100.0%; height: 100.0%;">Gramercy: $193.51</div>`)[0];
+                popup_1e489ceb9099b5601231901a55f9858a.setContent(html_46e6beeb2a40f9acb5f5673f1f38ca64);
+            
+        
+
+        circle_marker_db843b99461b0b9c1659fed59f75cc47.bindPopup(popup_1e489ceb9099b5601231901a55f9858a)
+        ;
+
+        
+    
+    
+            var circle_marker_1ba768916352034aa5f520c5be3b5f1b = L.circleMarker(
+                [40.730709473684215, -73.99854514619884],
+                {"bubblingMouseEvents": true, "color": "#ffe100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe100ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_1a0ffb5182879aee79080d5548ba0e43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7324a03e40674678194f7f75563392e = $(`<div id="html_d7324a03e40674678194f7f75563392e" style="width: 100.0%; height: 100.0%;">Greenwich Village: $247.99</div>`)[0];
+                popup_1a0ffb5182879aee79080d5548ba0e43.setContent(html_d7324a03e40674678194f7f75563392e);
+            
+        
+
+        circle_marker_1ba768916352034aa5f520c5be3b5f1b.bindPopup(popup_1a0ffb5182879aee79080d5548ba0e43)
+        ;
+
+        
+    
+    
+            var circle_marker_ff6c93a389f0388ff02fa7c451514822 = L.circleMarker(
+                [40.81567876148621, -73.9481268717539],
+                {"bubblingMouseEvents": true, "color": "#42a100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#42a100ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_565549297d66320729e3dbc37c4f1142 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57f342964cfb1f635166542f2b1260e1 = $(`<div id="html_57f342964cfb1f635166542f2b1260e1" style="width: 100.0%; height: 100.0%;">Harlem: $117.91</div>`)[0];
+                popup_565549297d66320729e3dbc37c4f1142.setContent(html_57f342964cfb1f635166542f2b1260e1);
+            
+        
+
+        circle_marker_ff6c93a389f0388ff02fa7c451514822.bindPopup(popup_565549297d66320729e3dbc37c4f1142)
+        ;
+
+        
+    
+    
+            var circle_marker_deef17540042ac21dc5a11a6ee6fc4de = L.circleMarker(
+                [40.76183119483315, -73.99187934337998],
+                {"bubblingMouseEvents": true, "color": "#d0e800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d0e800ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_942d0cec05edebc490194fbd53a559c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21d65307600ff65e1f023ee69d404603 = $(`<div id="html_21d65307600ff65e1f023ee69d404603" style="width: 100.0%; height: 100.0%;">Hell's Kitchen: $201.84</div>`)[0];
+                popup_942d0cec05edebc490194fbd53a559c6.setContent(html_21d65307600ff65e1f023ee69d404603);
+            
+        
+
+        circle_marker_deef17540042ac21dc5a11a6ee6fc4de.bindPopup(popup_942d0cec05edebc490194fbd53a559c6)
+        ;
+
+        
+    
+    
+            var circle_marker_ce27ca40318e2dd8646cf2f7212dd5cc = L.circleMarker(
+                [40.86512772357724, -73.92446264227642],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_dd696a9f169300c605a3f485d2a00d10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e413430897c343c15ad8728658e6988d = $(`<div id="html_e413430897c343c15ad8728658e6988d" style="width: 100.0%; height: 100.0%;">Inwood: $78.36</div>`)[0];
+                popup_dd696a9f169300c605a3f485d2a00d10.setContent(html_e413430897c343c15ad8728658e6988d);
+            
+        
+
+        circle_marker_ce27ca40318e2dd8646cf2f7212dd5cc.bindPopup(popup_dd696a9f169300c605a3f485d2a00d10)
+        ;
+
+        
+    
+    
+            var circle_marker_cabebe1727718a2a3898bf47a80b1131 = L.circleMarker(
+                [40.74174159250585, -73.97955173302108],
+                {"bubblingMouseEvents": true, "color": "#bbdd00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bbdd00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_6f22f6613e0e5a6cc58a18196c830ead = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcd38fea22ef6e34b234d4db98e26bcc = $(`<div id="html_bcd38fea22ef6e34b234d4db98e26bcc" style="width: 100.0%; height: 100.0%;">Kips Bay: $189.25</div>`)[0];
+                popup_6f22f6613e0e5a6cc58a18196c830ead.setContent(html_bcd38fea22ef6e34b234d4db98e26bcc);
+            
+        
+
+        circle_marker_cabebe1727718a2a3898bf47a80b1131.bindPopup(popup_6f22f6613e0e5a6cc58a18196c830ead)
+        ;
+
+        
+    
+    
+            var circle_marker_2d71cf5b3e5a41ddb61b4c8113058991 = L.circleMarker(
+                [40.71899762589928, -73.9969773381295],
+                {"bubblingMouseEvents": true, "color": "#f1f800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1f800ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_981ce0a41476b5ae22169cc7e3e63b41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e765a8950223d69c0aa4cf4ab5c433a5 = $(`<div id="html_e765a8950223d69c0aa4cf4ab5c433a5" style="width: 100.0%; height: 100.0%;">Little Italy: $221.19</div>`)[0];
+                popup_981ce0a41476b5ae22169cc7e3e63b41.setContent(html_e765a8950223d69c0aa4cf4ab5c433a5);
+            
+        
+
+        circle_marker_2d71cf5b3e5a41ddb61b4c8113058991.bindPopup(popup_981ce0a41476b5ae22169cc7e3e63b41)
+        ;
+
+        
+    
+    
+            var circle_marker_6835854205833229eeff7099608ed892 = L.circleMarker(
+                [40.71835401204819, -73.98785061445783],
+                {"bubblingMouseEvents": true, "color": "#c8e400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c8e400ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_7576ee3da3ee00e2ebf25c219ae0f7cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8451cedbab8c3b2dbcd12ef7eac332d = $(`<div id="html_c8451cedbab8c3b2dbcd12ef7eac332d" style="width: 100.0%; height: 100.0%;">Lower East Side: $196.62</div>`)[0];
+                popup_7576ee3da3ee00e2ebf25c219ae0f7cc.setContent(html_c8451cedbab8c3b2dbcd12ef7eac332d);
+            
+        
+
+        circle_marker_6835854205833229eeff7099608ed892.bindPopup(popup_7576ee3da3ee00e2ebf25c219ae0f7cc)
+        ;
+
+        
+    
+    
+            var circle_marker_3da50a91c9078c4cafe5f1ad15241135 = L.circleMarker(
+                [40.87590307692308, -73.91083384615385],
+                {"bubblingMouseEvents": true, "color": "#138a00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#138a00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_e98ac7d8cdc194116dd149ef257e66ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e1f79d53ec2806ee0c2a3ee778d8fcc = $(`<div id="html_0e1f79d53ec2806ee0c2a3ee778d8fcc" style="width: 100.0%; height: 100.0%;">Marble Hill: $89.69</div>`)[0];
+                popup_e98ac7d8cdc194116dd149ef257e66ef.setContent(html_0e1f79d53ec2806ee0c2a3ee778d8fcc);
+            
+        
+
+        circle_marker_3da50a91c9078c4cafe5f1ad15241135.bindPopup(popup_e98ac7d8cdc194116dd149ef257e66ef)
+        ;
+
+        
+    
+    
+            var circle_marker_a896194d8ceb6de3bcd93ff06ce81dc9 = L.circleMarker(
+                [40.75447697432763, -73.97617371026895],
+                {"bubblingMouseEvents": true, "color": "#ff9700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9700ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_3a91d542c02581617f4af896c19aa1b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c47957b14075e23e551eebdfacc43be8 = $(`<div id="html_c47957b14075e23e551eebdfacc43be8" style="width: 100.0%; height: 100.0%;">Midtown: $291.79</div>`)[0];
+                popup_3a91d542c02581617f4af896c19aa1b9.setContent(html_c47957b14075e23e551eebdfacc43be8);
+            
+        
+
+        circle_marker_a896194d8ceb6de3bcd93ff06ce81dc9.bindPopup(popup_3a91d542c02581617f4af896c19aa1b9)
+        ;
+
+        
+    
+    
+            var circle_marker_0624f44ca3fb81bc31fc04091c778a6a = L.circleMarker(
+                [40.80824629746835, -73.96175477848101],
+                {"bubblingMouseEvents": true, "color": "#2a9500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2a9500ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_902e17f6f49746ad8a821c5c43fbdd73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6654d544fb6c96124ae35ff835dac002 = $(`<div id="html_6654d544fb6c96124ae35ff835dac002" style="width: 100.0%; height: 100.0%;">Morningside Heights: $103.59</div>`)[0];
+                popup_902e17f6f49746ad8a821c5c43fbdd73.setContent(html_6654d544fb6c96124ae35ff835dac002);
+            
+        
+
+        circle_marker_0624f44ca3fb81bc31fc04091c778a6a.bindPopup(popup_902e17f6f49746ad8a821c5c43fbdd73)
+        ;
+
+        
+    
+    
+            var circle_marker_c4719a62625057bc0ba10f1f0b4b7b48 = L.circleMarker(
+                [40.74728152505446, -73.9759577342048],
+                {"bubblingMouseEvents": true, "color": "#ebf500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ebf500ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_4d044da902ee4cbe4b97897a0df4f15f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6bc00d1aefdd1f7d685f65074c12985 = $(`<div id="html_c6bc00d1aefdd1f7d685f65074c12985" style="width: 100.0%; height: 100.0%;">Murray Hill: $217.71</div>`)[0];
+                popup_4d044da902ee4cbe4b97897a0df4f15f.setContent(html_c6bc00d1aefdd1f7d685f65074c12985);
+            
+        
+
+        circle_marker_c4719a62625057bc0ba10f1f0b4b7b48.bindPopup(popup_4d044da902ee4cbe4b97897a0df4f15f)
+        ;
+
+        
+    
+    
+            var circle_marker_6f26d42691cca6f14ae39f5abceb0873 = L.circleMarker(
+                [40.7266025, -73.99309558823529],
+                {"bubblingMouseEvents": true, "color": "#ffca00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffca00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_5e82bb2fdce3435e7103b578105e8658 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d7ccc6f461ebd5165134de8269b7b34 = $(`<div id="html_4d7ccc6f461ebd5165134de8269b7b34" style="width: 100.0%; height: 100.0%;">NoHo: $261.46</div>`)[0];
+                popup_5e82bb2fdce3435e7103b578105e8658.setContent(html_4d7ccc6f461ebd5165134de8269b7b34);
+            
+        
+
+        circle_marker_6f26d42691cca6f14ae39f5abceb0873.bindPopup(popup_5e82bb2fdce3435e7103b578105e8658)
+        ;
+
+        
+    
+    
+            var circle_marker_284890a0fd7fb7e6fb67858c2ee75252 = L.circleMarker(
+                [40.722082237288134, -73.99504122033898],
+                {"bubblingMouseEvents": true, "color": "#b2d900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b2d900ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_0ae38ee594a164b837dcc59b8b031336 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_989de1b83e4d455151f3b532d57de975 = $(`<div id="html_989de1b83e4d455151f3b532d57de975" style="width: 100.0%; height: 100.0%;">Nolita: $184.15</div>`)[0];
+                popup_0ae38ee594a164b837dcc59b8b031336.setContent(html_989de1b83e4d455151f3b532d57de975);
+            
+        
+
+        circle_marker_284890a0fd7fb7e6fb67858c2ee75252.bindPopup(popup_0ae38ee594a164b837dcc59b8b031336)
+        ;
+
+        
+    
+    
+            var circle_marker_d78cf4fb7f9239d9f0ce05d02655ec9f = L.circleMarker(
+                [40.76321880434782, -73.94875260869566],
+                {"bubblingMouseEvents": true, "color": "#239200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#239200ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_078ad476f2bd3cbed762f6fe8822e654 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be7b63695da27f83c67f02d66921c9fd = $(`<div id="html_be7b63695da27f83c67f02d66921c9fd" style="width: 100.0%; height: 100.0%;">Roosevelt Island: $99.34</div>`)[0];
+                popup_078ad476f2bd3cbed762f6fe8822e654.setContent(html_be7b63695da27f83c67f02d66921c9fd);
+            
+        
+
+        circle_marker_d78cf4fb7f9239d9f0ce05d02655ec9f.bindPopup(popup_078ad476f2bd3cbed762f6fe8822e654)
+        ;
+
+        
+    
+    
+            var circle_marker_0a3a7ea2b378685b8a75985271b785e9 = L.circleMarker(
+                [40.72420705882353, -74.00209280112044],
+                {"bubblingMouseEvents": true, "color": "#ffcc00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffcc00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_2584e14e396a72f0d472a8feae7b4c82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ec9bb39f8fecf7b156e95d84d3536e2 = $(`<div id="html_8ec9bb39f8fecf7b156e95d84d3536e2" style="width: 100.0%; height: 100.0%;">SoHo: $260.11</div>`)[0];
+                popup_2584e14e396a72f0d472a8feae7b4c82.setContent(html_8ec9bb39f8fecf7b156e95d84d3536e2);
+            
+        
+
+        circle_marker_0a3a7ea2b378685b8a75985271b785e9.bindPopup(popup_2584e14e396a72f0d472a8feae7b4c82)
+        ;
+
+        
+    
+    
+            var circle_marker_8528d75bd3ca1110a1911cae0487dc9a = L.circleMarker(
+                [40.7318493877551, -73.97816469387755],
+                {"bubblingMouseEvents": true, "color": "#a2d100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a2d100ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_8933c5501d113e2f11227f2f8e386ebf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62021edaeadc9a092b012a8590c41353 = $(`<div id="html_62021edaeadc9a092b012a8590c41353" style="width: 100.0%; height: 100.0%;">Stuyvesant Town: $174.71</div>`)[0];
+                popup_8933c5501d113e2f11227f2f8e386ebf.setContent(html_62021edaeadc9a092b012a8590c41353);
+            
+        
+
+        circle_marker_8528d75bd3ca1110a1911cae0487dc9a.bindPopup(popup_8933c5501d113e2f11227f2f8e386ebf)
+        ;
+
+        
+    
+    
+            var circle_marker_7a59b28434b5173e1eab3c5bf4a0b716 = L.circleMarker(
+                [40.759926542857144, -73.9852944],
+                {"bubblingMouseEvents": true, "color": "#ffd700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd700ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_7132ae8ccd6686c8bf60c70fdac0c7d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75b25c07e579da4a08eb04ca04459daf = $(`<div id="html_75b25c07e579da4a08eb04ca04459daf" style="width: 100.0%; height: 100.0%;">Theater District: $253.53</div>`)[0];
+                popup_7132ae8ccd6686c8bf60c70fdac0c7d3.setContent(html_75b25c07e579da4a08eb04ca04459daf);
+            
+        
+
+        circle_marker_7a59b28434b5173e1eab3c5bf4a0b716.bindPopup(popup_7132ae8ccd6686c8bf60c70fdac0c7d3)
+        ;
+
+        
+    
+    
+            var circle_marker_774e67cf6348f2817db1406de1117671 = L.circleMarker(
+                [40.717711071428575, -74.00784295918368],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_38a2684ab9c907a7bffaad508dbc6026 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_375e1761cb9ae82f80284a184cec6589 = $(`<div id="html_375e1761cb9ae82f80284a184cec6589" style="width: 100.0%; height: 100.0%;">Tribeca: $381.11</div>`)[0];
+                popup_38a2684ab9c907a7bffaad508dbc6026.setContent(html_375e1761cb9ae82f80284a184cec6589);
+            
+        
+
+        circle_marker_774e67cf6348f2817db1406de1117671.bindPopup(popup_38a2684ab9c907a7bffaad508dbc6026)
+        ;
+
+        
+    
+    
+            var circle_marker_329082491d682a2d63dee3afe609d869 = L.circleMarker(
+                [40.711810615384614, -73.99569107692308],
+                {"bubblingMouseEvents": true, "color": "#2b9600ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2b9600ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_09ca1fa60c049da162c19aa464b0ab14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cf344200e6ec3ec189178d6cd2f4f23 = $(`<div id="html_0cf344200e6ec3ec189178d6cd2f4f23" style="width: 100.0%; height: 100.0%;">Two Bridges: $104.28</div>`)[0];
+                popup_09ca1fa60c049da162c19aa464b0ab14.setContent(html_0cf344200e6ec3ec189178d6cd2f4f23);
+            
+        
+
+        circle_marker_329082491d682a2d63dee3afe609d869.bindPopup(popup_09ca1fa60c049da162c19aa464b0ab14)
+        ;
+
+        
+    
+    
+            var circle_marker_7a52617b87c83720c13a1389fb195c2e = L.circleMarker(
+                [40.77273892363199, -73.95480805171377],
+                {"bubblingMouseEvents": true, "color": "#b2d900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b2d900ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_ab4d77dd14c18216c596522f4f9f1cb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eabb94d29e281560e3fc13e4bd9f7b15 = $(`<div id="html_eabb94d29e281560e3fc13e4bd9f7b15" style="width: 100.0%; height: 100.0%;">Upper East Side: $183.91</div>`)[0];
+                popup_ab4d77dd14c18216c596522f4f9f1cb9.setContent(html_eabb94d29e281560e3fc13e4bd9f7b15);
+            
+        
+
+        circle_marker_7a52617b87c83720c13a1389fb195c2e.bindPopup(popup_ab4d77dd14c18216c596522f4f9f1cb9)
+        ;
+
+        
+    
+    
+            var circle_marker_0f583286d2b55905766e51614a347d0f = L.circleMarker(
+                [40.78848446644665, -73.97364114961495],
+                {"bubblingMouseEvents": true, "color": "#c2e100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c2e100ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_fa91f79540c15af8bad763b698149de6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_375c69551f67a4cc3a37714b3526fc84 = $(`<div id="html_375c69551f67a4cc3a37714b3526fc84" style="width: 100.0%; height: 100.0%;">Upper West Side: $193.32</div>`)[0];
+                popup_fa91f79540c15af8bad763b698149de6.setContent(html_375c69551f67a4cc3a37714b3526fc84);
+            
+        
+
+        circle_marker_0f583286d2b55905766e51614a347d0f.bindPopup(popup_fa91f79540c15af8bad763b698149de6)
+        ;
+
+        
+    
+    
+            var circle_marker_add218334468fe02bd2ea8072331203d = L.circleMarker(
+                [40.8444890529876, -73.93838605411499],
+                {"bubblingMouseEvents": true, "color": "#239200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#239200ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_b8dd357ab2e40516893c94d9bf00ed68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a631583c75392a3f14dfc17c43bb9b80 = $(`<div id="html_a631583c75392a3f14dfc17c43bb9b80" style="width: 100.0%; height: 100.0%;">Washington Heights: $99.63</div>`)[0];
+                popup_b8dd357ab2e40516893c94d9bf00ed68.setContent(html_a631583c75392a3f14dfc17c43bb9b80);
+            
+        
+
+        circle_marker_add218334468fe02bd2ea8072331203d.bindPopup(popup_b8dd357ab2e40516893c94d9bf00ed68)
+        ;
+
+        
+    
+    
+            var circle_marker_269e7a8b747d406d61f84a35d3a35e07 = L.circleMarker(
+                [40.73425695104895, -74.00411183216784],
+                {"bubblingMouseEvents": true, "color": "#fff700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff700ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+        
+    
+        var popup_059b1117748b6bf931223b14a13ba0ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e746b376f528b1ad5f04e6e536fe6554 = $(`<div id="html_e746b376f528b1ad5f04e6e536fe6554" style="width: 100.0%; height: 100.0%;">West Village: $234.60</div>`)[0];
+                popup_059b1117748b6bf931223b14a13ba0ac.setContent(html_e746b376f528b1ad5f04e6e536fe6554);
+            
+        
+
+        circle_marker_269e7a8b747d406d61f84a35d3a35e07.bindPopup(popup_059b1117748b6bf931223b14a13ba0ac)
+        ;
+
+        
+    
+    
+    var color_map_97e5317134bba7134b7dcfbf7b7ee1f3 = {};
+
+    
+    color_map_97e5317134bba7134b7dcfbf7b7ee1f3.color = d3.scale.threshold()
+              .domain([78.35772357723577, 78.96443584032176, 79.57114810340775, 80.17786036649373, 80.78457262957971, 81.39128489266571, 81.99799715575169, 82.60470941883767, 83.21142168192367, 83.81813394500965, 84.42484620809563, 85.03155847118163, 85.6382707342676, 86.24498299735359, 86.85169526043958, 87.45840752352557, 88.06511978661155, 88.67183204969754, 89.27854431278352, 89.8852565758695, 90.4919688389555, 91.09868110204148, 91.70539336512746, 92.31210562821346, 92.91881789129944, 93.52553015438542, 94.13224241747142, 94.7389546805574, 95.34566694364338, 95.95237920672938, 96.55909146981536, 97.16580373290134, 97.77251599598733, 98.37922825907332, 98.9859405221593, 99.59265278524529, 100.19936504833127, 100.80607731141725, 101.41278957450325, 102.01950183758923, 102.62621410067521, 103.23292636376121, 103.83963862684719, 104.44635088993317, 105.05306315301917, 105.65977541610515, 106.26648767919113, 106.87319994227713, 107.4799122053631, 108.08662446844909, 108.69333673153508, 109.30004899462106, 109.90676125770705, 110.51347352079304, 111.12018578387901, 111.726898046965, 112.333610310051, 112.94032257313698, 113.54703483622296, 114.15374709930896, 114.76045936239494, 115.36717162548092, 115.97388388856692, 116.5805961516529, 117.18730841473888, 117.79402067782488, 118.40073294091086, 119.00744520399684, 119.61415746708283, 120.22086973016881, 120.8275819932548, 121.43429425634079, 122.04100651942677, 122.64771878251275, 123.25443104559875, 123.86114330868473, 124.46785557177071, 125.07456783485671, 125.68128009794269, 126.28799236102867, 126.89470462411467, 127.50141688720065, 128.10812915028663, 128.71484141337262, 129.32155367645862, 129.9282659395446, 130.53497820263058, 131.14169046571658, 131.74840272880255, 132.35511499188854, 132.96182725497454, 133.5685395180605, 134.1752517811465, 134.7819640442325, 135.38867630731846, 135.99538857040446, 136.60210083349045, 137.20881309657642, 137.81552535966242, 138.42223762274838, 139.02894988583438, 139.63566214892037, 140.24237441200634, 140.84908667509234, 141.45579893817833, 142.0625112012643, 142.6692234643503, 143.27593572743626, 143.88264799052226, 144.48936025360825, 145.09607251669422, 145.70278477978022, 146.3094970428662, 146.9162093059522, 147.5229215690382, 148.12963383212417, 148.73634609521014, 149.34305835829613, 149.94977062138213, 150.55648288446812, 151.16319514755412, 151.7699074106401, 152.37661967372605, 152.98333193681205, 153.59004419989805, 154.19675646298404, 154.80346872607004, 155.410180989156, 156.01689325224197, 156.62360551532797, 157.23031777841396, 157.83703004149993, 158.44374230458595, 159.05045456767192, 159.6571668307579, 160.26387909384388, 160.87059135692988, 161.47730362001585, 162.08401588310187, 162.69072814618784, 163.2974404092738, 163.9041526723598, 164.5108649354458, 165.11757719853176, 165.7242894616178, 166.33100172470375, 166.93771398778972, 167.54442625087572, 168.1511385139617, 168.75785077704768, 169.3645630401337, 169.97127530321967, 170.57798756630564, 171.18469982939163, 171.79141209247763, 172.3981243555636, 173.00483661864962, 173.6115488817356, 174.21826114482155, 174.82497340790755, 175.43168567099355, 176.0383979340795, 176.64511019716554, 177.2518224602515, 177.85853472333747, 178.46524698642347, 179.07195924950946, 179.67867151259543, 180.28538377568145, 180.89209603876742, 181.4988083018534, 182.10552056493938, 182.71223282802538, 183.31894509111135, 183.92565735419737, 184.53236961728334, 185.1390818803693, 185.7457941434553, 186.3525064065413, 186.95921866962726, 187.5659309327133, 188.17264319579925, 188.77935545888522, 189.38606772197122, 189.9927799850572, 190.59949224814318, 191.2062045112292, 191.81291677431517, 192.41962903740114, 193.02634130048713, 193.63305356357313, 194.2397658266591, 194.84647808974512, 195.4531903528311, 196.05990261591705, 196.66661487900305, 197.27332714208904, 197.880039405175, 198.486751668261, 199.093463931347, 199.70017619443297, 200.30688845751897, 200.91360072060496, 201.52031298369093, 202.12702524677692, 202.73373750986292, 203.3404497729489, 203.94716203603488, 204.55387429912088, 205.16058656220684, 205.76729882529284, 206.37401108837884, 206.9807233514648, 207.58743561455083, 208.1941478776368, 208.80086014072276, 209.40757240380873, 210.01428466689475, 210.62099692998072, 211.22770919306674, 211.8344214561527, 212.44113371923868, 213.04784598232465, 213.65455824541067, 214.26127050849664, 214.8679827715826, 215.47469503466863, 216.0814072977546, 216.68811956084062, 217.2948318239266, 217.90154408701255, 218.50825635009858, 219.11496861318454, 219.7216808762705, 220.32839313935648, 220.9351054024425, 221.54181766552847, 222.14852992861444, 222.75524219170046, 223.36195445478643, 223.96866671787245, 224.57537898095842, 225.1820912440444, 225.7888035071304, 226.39551577021638, 227.00222803330234, 227.6089402963883, 228.21565255947434, 228.8223648225603, 229.42907708564627, 230.0357893487323, 230.64250161181826, 231.24921387490429, 231.85592613799025, 232.46263840107622, 233.06935066416224, 233.6760629272482, 234.28277519033418, 234.88948745342014, 235.49619971650617, 236.10291197959214, 236.7096242426781, 237.31633650576413, 237.9230487688501, 238.52976103193612, 239.13647329502209, 239.74318555810805, 240.34989782119408, 240.95661008428004, 241.563322347366, 242.17003461045198, 242.776746873538, 243.38345913662397, 243.99017139970994, 244.59688366279596, 245.20359592588193, 245.81030818896795, 246.41702045205392, 247.0237327151399, 247.6304449782259, 248.23715724131188, 248.84386950439784, 249.4505817674838, 250.05729403056984, 250.6640062936558, 251.27071855674177, 251.8774308198278, 252.48414308291376, 253.09085534599978, 253.69756760908575, 254.30427987217172, 254.91099213525774, 255.5177043983437, 256.1244166614297, 256.73112892451564, 257.33784118760167, 257.94455345068764, 258.5512657137736, 259.1579779768596, 259.7646902399456, 260.3714025030316, 260.9781147661176, 261.58482702920355, 262.1915392922896, 262.79825155537554, 263.4049638184615, 264.0116760815475, 264.6183883446335, 265.22510060771947, 265.83181287080544, 266.43852513389146, 267.0452373969774, 267.65194966006345, 268.2586619231494, 268.8653741862354, 269.4720864493214, 270.0787987124074, 270.68551097549334, 271.2922232385793, 271.89893550166533, 272.5056477647513, 273.11236002783727, 273.7190722909233, 274.32578455400926, 274.9324968170953, 275.53920908018125, 276.1459213432672, 276.75263360635324, 277.3593458694392, 277.9660581325252, 278.57277039561114, 279.17948265869717, 279.78619492178314, 280.3929071848691, 280.9996194479551, 281.6063317110411, 282.2130439741271, 282.8197562372131, 283.42646850029905, 284.0331807633851, 284.63989302647104, 285.246605289557, 285.853317552643, 286.460029815729, 287.06674207881497, 287.67345434190094, 288.28016660498696, 288.8868788680729, 289.49359113115895, 290.1003033942449, 290.7070156573309, 291.3137279204169, 291.9204401835029, 292.52715244658884, 293.1338647096748, 293.74057697276083, 294.3472892358468, 294.95400149893277, 295.5607137620188, 296.16742602510476, 296.7741382881908, 297.38085055127675, 297.9875628143627, 298.59427507744874, 299.2009873405347, 299.8076996036207, 300.41441186670664, 301.02112412979267, 301.62783639287863, 302.2345486559646, 302.8412609190506, 303.4479731821366, 304.0546854452226, 304.6613977083086, 305.26810997139455, 305.8748222344806, 306.48153449756654, 307.0882467606525, 307.6949590237385, 308.3016712868245, 308.90838354991047, 309.51509581299644, 310.12180807608246, 310.7285203391684, 311.33523260225445, 311.9419448653404, 312.5486571284264, 313.1553693915124, 313.7620816545984, 314.36879391768434, 314.9755061807703, 315.58221844385633, 316.1889307069423, 316.79564297002827, 317.4023552331143, 318.00906749620026, 318.6157797592862, 319.22249202237225, 319.8292042854582, 320.43591654854424, 321.0426288116302, 321.6493410747162, 322.25605333780214, 322.86276560088817, 323.46947786397413, 324.0761901270601, 324.6829023901461, 325.2896146532321, 325.89632691631806, 326.5030391794041, 327.10975144249005, 327.7164637055761, 328.32317596866204, 328.929888231748, 329.536600494834, 330.14331275792, 330.75002502100597, 331.35673728409193, 331.96344954717796, 332.5701618102639, 333.1768740733499, 333.7835863364359, 334.39029859952194, 334.9970108626079, 335.6037231256939, 336.21043538877984, 336.81714765186587, 337.42385991495183, 338.0305721780378, 338.6372844411238, 339.2439967042098, 339.85070896729576, 340.4574212303817, 341.06413349346775, 341.6708457565538, 342.2775580196397, 342.8842702827257, 343.4909825458117, 344.0976948088977, 344.7044070719837, 345.31111933506963, 345.91783159815566, 346.5245438612416, 347.13125612432765, 347.73796838741356, 348.3446806504996, 348.95139291358555, 349.5581051766716, 350.16481743975754, 350.7715297028435, 351.3782419659295, 351.9849542290155, 352.5916664921015, 353.1983787551875, 353.80509101827346, 354.4118032813594, 355.01851554444545, 355.6252278075314, 356.23194007061744, 356.83865233370335, 357.4453645967894, 358.05207685987534, 358.65878912296137, 359.26550138604733, 359.8722136491333, 360.4789259122193, 361.0856381753053, 361.6923504383913, 362.2990627014772, 362.90577496456325, 363.5124872276492, 364.11919949073524, 364.7259117538212, 365.3326240169072, 365.93933627999314, 366.54604854307917, 367.1527608061652, 367.75947306925116, 368.3661853323371, 368.9728975954231, 369.5796098585091, 370.1863221215951, 370.7930343846811, 371.399746647767, 372.00645891085304, 372.613171173939, 373.21988343702503, 373.826595700111, 374.43330796319697, 375.040020226283, 375.64673248936896, 376.253444752455, 376.8601570155409, 377.4668692786269, 378.0735815417129, 378.6802938047989, 379.2870060678849, 379.89371833097084, 380.5004305940568, 381.10714285714283])
+              .range(['#008000ff', '#018100ff', '#028100ff', '#038200ff', '#048200ff', '#058300ff', '#068300ff', '#078400ff', '#088400ff', '#098500ff', '#0a8500ff', '#0b8600ff', '#0c8600ff', '#0d8700ff', '#0e8700ff', '#0f8800ff', '#108800ff', '#118900ff', '#128900ff', '#138a00ff', '#148a00ff', '#158b00ff', '#168b00ff', '#178c00ff', '#188c00ff', '#198d00ff', '#1a8d00ff', '#1b8e00ff', '#1c8e00ff', '#1d8f00ff', '#1e8f00ff', '#1f9000ff', '#209000ff', '#219100ff', '#229100ff', '#239200ff', '#249200ff', '#259300ff', '#269300ff', '#289400ff', '#299400ff', '#2a9500ff', '#2b9500ff', '#2c9600ff', '#2d9600ff', '#2e9700ff', '#2f9800ff', '#309800ff', '#319900ff', '#329900ff', '#339a00ff', '#349a00ff', '#359b00ff', '#369b00ff', '#379c00ff', '#389c00ff', '#399d00ff', '#3a9d00ff', '#3b9e00ff', '#3c9e00ff', '#3d9f00ff', '#3e9f00ff', '#3fa000ff', '#40a000ff', '#41a100ff', '#42a100ff', '#43a200ff', '#44a200ff', '#45a300ff', '#46a300ff', '#47a400ff', '#48a400ff', '#49a500ff', '#4aa500ff', '#4ba600ff', '#4ca600ff', '#4da700ff', '#4fa700ff', '#50a800ff', '#51a800ff', '#52a900ff', '#53a900ff', '#54aa00ff', '#55aa00ff', '#56ab00ff', '#57ab00ff', '#58ac00ff', '#59ac00ff', '#5aad00ff', '#5bad00ff', '#5cae00ff', '#5daf00ff', '#5eaf00ff', '#5fb000ff', '#60b000ff', '#61b100ff', '#62b100ff', '#63b200ff', '#64b200ff', '#65b300ff', '#66b300ff', '#67b400ff', '#68b400ff', '#69b500ff', '#6ab500ff', '#6bb600ff', '#6cb600ff', '#6db700ff', '#6eb700ff', '#6fb800ff', '#70b800ff', '#71b900ff', '#72b900ff', '#73ba00ff', '#74ba00ff', '#75bb00ff', '#77bb00ff', '#78bc00ff', '#79bc00ff', '#7abd00ff', '#7bbd00ff', '#7cbe00ff', '#7dbe00ff', '#7ebf00ff', '#7fbf00ff', '#80c000ff', '#81c000ff', '#82c100ff', '#83c100ff', '#84c200ff', '#85c200ff', '#86c300ff', '#87c300ff', '#88c400ff', '#89c400ff', '#8ac500ff', '#8bc500ff', '#8cc600ff', '#8dc700ff', '#8ec700ff', '#8fc800ff', '#90c800ff', '#91c900ff', '#92c900ff', '#93ca00ff', '#94ca00ff', '#95cb00ff', '#96cb00ff', '#97cc00ff', '#98cc00ff', '#99cd00ff', '#9acd00ff', '#9bce00ff', '#9cce00ff', '#9ecf00ff', '#9fcf00ff', '#a0d000ff', '#a1d000ff', '#a2d100ff', '#a3d100ff', '#a4d200ff', '#a5d200ff', '#a6d300ff', '#a7d300ff', '#a8d400ff', '#a9d400ff', '#aad500ff', '#abd500ff', '#acd600ff', '#add600ff', '#aed700ff', '#afd700ff', '#b0d800ff', '#b1d800ff', '#b2d900ff', '#b3d900ff', '#b4da00ff', '#b5da00ff', '#b6db00ff', '#b7db00ff', '#b8dc00ff', '#b9dc00ff', '#badd00ff', '#bbde00ff', '#bcde00ff', '#bddf00ff', '#bedf00ff', '#bfe000ff', '#c0e000ff', '#c1e100ff', '#c2e100ff', '#c3e200ff', '#c5e200ff', '#c6e300ff', '#c7e300ff', '#c8e400ff', '#c9e400ff', '#cae500ff', '#cbe500ff', '#cce600ff', '#cde600ff', '#cee700ff', '#cfe700ff', '#d0e800ff', '#d1e800ff', '#d2e900ff', '#d3e900ff', '#d4ea00ff', '#d5ea00ff', '#d6eb00ff', '#d7eb00ff', '#d8ec00ff', '#d9ec00ff', '#daed00ff', '#dbed00ff', '#dcee00ff', '#ddee00ff', '#deef00ff', '#dfef00ff', '#e0f000ff', '#e1f000ff', '#e2f100ff', '#e3f100ff', '#e4f200ff', '#e5f200ff', '#e6f300ff', '#e7f300ff', '#e8f400ff', '#e9f500ff', '#eaf500ff', '#ebf600ff', '#edf600ff', '#eef700ff', '#eff700ff', '#f0f800ff', '#f1f800ff', '#f2f900ff', '#f3f900ff', '#f4fa00ff', '#f5fa00ff', '#f6fb00ff', '#f7fb00ff', '#f8fc00ff', '#f9fc00ff', '#fafd00ff', '#fbfd00ff', '#fcfe00ff', '#fdfe00ff', '#feff00ff', '#ffff00ff', '#ffff00ff', '#fffe00ff', '#fffd00ff', '#fffc00ff', '#fffb00ff', '#fffa00ff', '#fff900ff', '#fff800ff', '#fff700ff', '#fff600ff', '#fff500ff', '#fff400ff', '#fff300ff', '#fff200ff', '#fff100ff', '#fff000ff', '#ffef00ff', '#ffee00ff', '#ffed00ff', '#ffeb00ff', '#ffea00ff', '#ffe900ff', '#ffe800ff', '#ffe700ff', '#ffe600ff', '#ffe500ff', '#ffe400ff', '#ffe300ff', '#ffe200ff', '#ffe100ff', '#ffe000ff', '#ffdf00ff', '#ffde00ff', '#ffdd00ff', '#ffdc00ff', '#ffdb00ff', '#ffda00ff', '#ffd900ff', '#ffd800ff', '#ffd700ff', '#ffd600ff', '#ffd500ff', '#ffd400ff', '#ffd300ff', '#ffd200ff', '#ffd100ff', '#ffd000ff', '#ffcf00ff', '#ffce00ff', '#ffcd00ff', '#ffcc00ff', '#ffcb00ff', '#ffca00ff', '#ffc900ff', '#ffc800ff', '#ffc700ff', '#ffc600ff', '#ffc500ff', '#ffc300ff', '#ffc200ff', '#ffc100ff', '#ffc000ff', '#ffbf00ff', '#ffbe00ff', '#ffbd00ff', '#ffbc00ff', '#ffbb00ff', '#ffba00ff', '#ffb900ff', '#ffb800ff', '#ffb700ff', '#ffb600ff', '#ffb500ff', '#ffb400ff', '#ffb300ff', '#ffb200ff', '#ffb100ff', '#ffb000ff', '#ffaf00ff', '#ffae00ff', '#ffad00ff', '#ffac00ff', '#ffab00ff', '#ffaa00ff', '#ffa900ff', '#ffa800ff', '#ffa700ff', '#ffa600ff', '#ffa500ff', '#ffa400ff', '#ffa300ff', '#ffa200ff', '#ffa100ff', '#ffa000ff', '#ff9f00ff', '#ff9e00ff', '#ff9c00ff', '#ff9b00ff', '#ff9a00ff', '#ff9900ff', '#ff9800ff', '#ff9700ff', '#ff9600ff', '#ff9500ff', '#ff9400ff', '#ff9300ff', '#ff9200ff', '#ff9100ff', '#ff9000ff', '#ff8f00ff', '#ff8e00ff', '#ff8d00ff', '#ff8c00ff', '#ff8b00ff', '#ff8a00ff', '#ff8900ff', '#ff8800ff', '#ff8700ff', '#ff8600ff', '#ff8500ff', '#ff8400ff', '#ff8300ff', '#ff8200ff', '#ff8100ff', '#ff8000ff', '#ff7f00ff', '#ff7e00ff', '#ff7d00ff', '#ff7c00ff', '#ff7b00ff', '#ff7a00ff', '#ff7900ff', '#ff7800ff', '#ff7700ff', '#ff7500ff', '#ff7400ff', '#ff7300ff', '#ff7200ff', '#ff7100ff', '#ff7000ff', '#ff6f00ff', '#ff6e00ff', '#ff6d00ff', '#ff6c00ff', '#ff6b00ff', '#ff6a00ff', '#ff6900ff', '#ff6800ff', '#ff6700ff', '#ff6600ff', '#ff6500ff', '#ff6400ff', '#ff6300ff', '#ff6200ff', '#ff6100ff', '#ff6000ff', '#ff5f00ff', '#ff5e00ff', '#ff5d00ff', '#ff5c00ff', '#ff5b00ff', '#ff5a00ff', '#ff5900ff', '#ff5800ff', '#ff5700ff', '#ff5600ff', '#ff5500ff', '#ff5400ff', '#ff5300ff', '#ff5200ff', '#ff5100ff', '#ff5000ff', '#ff4f00ff', '#ff4d00ff', '#ff4c00ff', '#ff4b00ff', '#ff4a00ff', '#ff4900ff', '#ff4800ff', '#ff4700ff', '#ff4600ff', '#ff4500ff', '#ff4400ff', '#ff4300ff', '#ff4200ff', '#ff4100ff', '#ff4000ff', '#ff3f00ff', '#ff3e00ff', '#ff3d00ff', '#ff3c00ff', '#ff3b00ff', '#ff3a00ff', '#ff3900ff', '#ff3800ff', '#ff3700ff', '#ff3600ff', '#ff3500ff', '#ff3400ff', '#ff3300ff', '#ff3200ff', '#ff3100ff', '#ff3000ff', '#ff2f00ff', '#ff2e00ff', '#ff2d00ff', '#ff2c00ff', '#ff2b00ff', '#ff2a00ff', '#ff2900ff', '#ff2800ff', '#ff2600ff', '#ff2500ff', '#ff2400ff', '#ff2300ff', '#ff2200ff', '#ff2100ff', '#ff2000ff', '#ff1f00ff', '#ff1e00ff', '#ff1d00ff', '#ff1c00ff', '#ff1b00ff', '#ff1a00ff', '#ff1900ff', '#ff1800ff', '#ff1700ff', '#ff1600ff', '#ff1500ff', '#ff1400ff', '#ff1300ff', '#ff1200ff', '#ff1100ff', '#ff1000ff', '#ff0f00ff', '#ff0e00ff', '#ff0d00ff', '#ff0c00ff', '#ff0b00ff', '#ff0a00ff', '#ff0900ff', '#ff0800ff', '#ff0700ff', '#ff0600ff', '#ff0500ff', '#ff0400ff', '#ff0300ff', '#ff0200ff', '#ff0100ff', '#ff0000ff']);
+    
+
+    color_map_97e5317134bba7134b7dcfbf7b7ee1f3.x = d3.scale.linear()
+              .domain([78.35772357723577, 381.10714285714283])
+              .range([0, 450 - 50]);
+
+    color_map_97e5317134bba7134b7dcfbf7b7ee1f3.legend = L.control({position: 'topright'});
+    color_map_97e5317134bba7134b7dcfbf7b7ee1f3.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_97e5317134bba7134b7dcfbf7b7ee1f3.legend.addTo(map_fa496ef609752b1d99b5b5e685ff0675);
+
+    color_map_97e5317134bba7134b7dcfbf7b7ee1f3.xAxis = d3.svg.axis()
+        .scale(color_map_97e5317134bba7134b7dcfbf7b7ee1f3.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([78.35772357723577, 229.73243321718928, 381.10714285714283]);
+
+    color_map_97e5317134bba7134b7dcfbf7b7ee1f3.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_97e5317134bba7134b7dcfbf7b7ee1f3.g = color_map_97e5317134bba7134b7dcfbf7b7ee1f3.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_97e5317134bba7134b7dcfbf7b7ee1f3.g.selectAll("rect")
+        .data(color_map_97e5317134bba7134b7dcfbf7b7ee1f3.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_97e5317134bba7134b7dcfbf7b7ee1f3.x(color_map_97e5317134bba7134b7dcfbf7b7ee1f3.color.domain()[i - 1]) : color_map_97e5317134bba7134b7dcfbf7b7ee1f3.x.range()[0],
+            x1: i < color_map_97e5317134bba7134b7dcfbf7b7ee1f3.color.domain().length ? color_map_97e5317134bba7134b7dcfbf7b7ee1f3.x(color_map_97e5317134bba7134b7dcfbf7b7ee1f3.color.domain()[i]) : color_map_97e5317134bba7134b7dcfbf7b7ee1f3.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_97e5317134bba7134b7dcfbf7b7ee1f3.g.call(color_map_97e5317134bba7134b7dcfbf7b7ee1f3.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text("Average Price");
+</script>
+</html>

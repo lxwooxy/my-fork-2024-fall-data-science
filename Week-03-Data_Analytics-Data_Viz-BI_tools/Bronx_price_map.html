@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7d82d3f03647c8d10398d9ac43cd2393 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7d82d3f03647c8d10398d9ac43cd2393" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7d82d3f03647c8d10398d9ac43cd2393 = L.map(
+                "map_7d82d3f03647c8d10398d9ac43cd2393",
+                {
+                    center: [40.84907719357566, -73.88337448013525],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1d055db215026db1373c169609179cea = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+            var circle_marker_66df308b74e17fe6a95f9c164d1362ca = L.circleMarker(
+                [40.86451348837209, -73.85936302325581],
+                {"bubblingMouseEvents": true, "color": "#5aad00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5aad00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_c102c340de22db42820fc9c43e994b38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec98f5207533a84878bb47367305aa0b = $(`<div id="html_ec98f5207533a84878bb47367305aa0b" style="width: 100.0%; height: 100.0%;">Allerton: $92.81</div>`)[0];
+                popup_c102c340de22db42820fc9c43e994b38.setContent(html_ec98f5207533a84878bb47367305aa0b);
+            
+        
+
+        circle_marker_66df308b74e17fe6a95f9c164d1362ca.bindPopup(popup_c102c340de22db42820fc9c43e994b38)
+        ;
+
+        
+    
+    
+            var circle_marker_4d7d07ce16824cd047dae7c9e7d28536 = L.circleMarker(
+                [40.87263166666667, -73.84128416666667],
+                {"bubblingMouseEvents": true, "color": "#42a100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#42a100ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_e3652e70df4ff7902fe2fe3bfaefc9bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b48fbd0ccf3a6b897caa867d51b6af9c = $(`<div id="html_b48fbd0ccf3a6b897caa867d51b6af9c" style="width: 100.0%; height: 100.0%;">Baychester: $81.75</div>`)[0];
+                popup_e3652e70df4ff7902fe2fe3bfaefc9bb.setContent(html_b48fbd0ccf3a6b897caa867d51b6af9c);
+            
+        
+
+        circle_marker_4d7d07ce16824cd047dae7c9e7d28536.bindPopup(popup_e3652e70df4ff7902fe2fe3bfaefc9bb)
+        ;
+
+        
+    
+    
+            var circle_marker_871b0d759827156d97022f44cbf8113d = L.circleMarker(
+                [40.855420555555554, -73.88691055555556],
+                {"bubblingMouseEvents": true, "color": "#168b00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#168b00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_8e5d4f846db7c37bfc413ad9651eb69d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51a8f5295dab29a7e7377c0140332a43 = $(`<div id="html_51a8f5295dab29a7e7377c0140332a43" style="width: 100.0%; height: 100.0%;">Belmont: $62.33</div>`)[0];
+                popup_8e5d4f846db7c37bfc413ad9651eb69d.setContent(html_51a8f5295dab29a7e7377c0140332a43);
+            
+        
+
+        circle_marker_871b0d759827156d97022f44cbf8113d.bindPopup(popup_8e5d4f846db7c37bfc413ad9651eb69d)
+        ;
+
+        
+    
+    
+            var circle_marker_d93e3175bfa288150c50d72364cfebfb = L.circleMarker(
+                [40.85490111111111, -73.86559055555556],
+                {"bubblingMouseEvents": true, "color": "#178c00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#178c00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_eb78a273da01e3669f6b06aa0249ac93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94cde5638cb118fa743a3ca536b2b2c9 = $(`<div id="html_94cde5638cb118fa743a3ca536b2b2c9" style="width: 100.0%; height: 100.0%;">Bronxdale: $62.67</div>`)[0];
+                popup_eb78a273da01e3669f6b06aa0249ac93.setContent(html_94cde5638cb118fa743a3ca536b2b2c9);
+            
+        
+
+        circle_marker_d93e3175bfa288150c50d72364cfebfb.bindPopup(popup_eb78a273da01e3669f6b06aa0249ac93)
+        ;
+
+        
+    
+    
+            var circle_marker_922505ae63ded831d7913791414a2caf = L.circleMarker(
+                [40.81937333333334, -73.85053333333333],
+                {"bubblingMouseEvents": true, "color": "#2b9600ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2b9600ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_ab18622dda7fadf6c86a237ea47b73ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d85d80861d5e68d63664bd70a1f0e4e3 = $(`<div id="html_d85d80861d5e68d63664bd70a1f0e4e3" style="width: 100.0%; height: 100.0%;">Castle Hill: $71.67</div>`)[0];
+                popup_ab18622dda7fadf6c86a237ea47b73ce.setContent(html_d85d80861d5e68d63664bd70a1f0e4e3);
+            
+        
+
+        circle_marker_922505ae63ded831d7913791414a2caf.bindPopup(popup_ab18622dda7fadf6c86a237ea47b73ce)
+        ;
+
+        
+    
+    
+            var circle_marker_5b152f5346b53c42586449e78dd8058c = L.circleMarker(
+                [40.8484675, -73.78737375],
+                {"bubblingMouseEvents": true, "color": "#93ca00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#93ca00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_052328079cf24374f782aea6659e81bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5240dd74cb48bc5908f3c1c82db1cc45 = $(`<div id="html_5240dd74cb48bc5908f3c1c82db1cc45" style="width: 100.0%; height: 100.0%;">City Island: $118.25</div>`)[0];
+                popup_052328079cf24374f782aea6659e81bb.setContent(html_5240dd74cb48bc5908f3c1c82db1cc45);
+            
+        
+
+        circle_marker_5b152f5346b53c42586449e78dd8058c.bindPopup(popup_052328079cf24374f782aea6659e81bb)
+        ;
+
+        
+    
+    
+            var circle_marker_9c556e561ab9dc1a38cfaf573b77a591 = L.circleMarker(
+                [40.840173461538456, -73.90799115384615],
+                {"bubblingMouseEvents": true, "color": "#45a300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#45a300ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_561b3304b7b076d8bc82728ab0626258 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_559824bff85b00527a11f161069d7e19 = $(`<div id="html_559824bff85b00527a11f161069d7e19" style="width: 100.0%; height: 100.0%;">Claremont Village: $83.23</div>`)[0];
+                popup_561b3304b7b076d8bc82728ab0626258.setContent(html_559824bff85b00527a11f161069d7e19);
+            
+        
+
+        circle_marker_9c556e561ab9dc1a38cfaf573b77a591.bindPopup(popup_561b3304b7b076d8bc82728ab0626258)
+        ;
+
+        
+    
+    
+            var circle_marker_9546d3c624c7e2c7bb5b70f34b669913 = L.circleMarker(
+                [40.8125104, -73.8571692],
+                {"bubblingMouseEvents": true, "color": "#54aa00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#54aa00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_7dd2fb1138057c10b353060d5dbf86c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7b011a55a345f8e45a18b24c4565add = $(`<div id="html_d7b011a55a345f8e45a18b24c4565add" style="width: 100.0%; height: 100.0%;">Clason Point: $90.04</div>`)[0];
+                popup_7dd2fb1138057c10b353060d5dbf86c9.setContent(html_d7b011a55a345f8e45a18b24c4565add);
+            
+        
+
+        circle_marker_9546d3c624c7e2c7bb5b70f34b669913.bindPopup(popup_7dd2fb1138057c10b353060d5dbf86c9)
+        ;
+
+        
+    
+    
+            var circle_marker_2083d2ead8ce76fc625e74cc8cee23bb = L.circleMarker(
+                [40.86676666666667, -73.82548],
+                {"bubblingMouseEvents": true, "color": "#148a00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#148a00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_44eb290228c625ef8992031138f6bc98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eee0b94feae0b5158893c1edfc68825b = $(`<div id="html_eee0b94feae0b5158893c1edfc68825b" style="width: 100.0%; height: 100.0%;">Co-op City: $61.33</div>`)[0];
+                popup_44eb290228c625ef8992031138f6bc98.setContent(html_eee0b94feae0b5158893c1edfc68825b);
+            
+        
+
+        circle_marker_2083d2ead8ce76fc625e74cc8cee23bb.bindPopup(popup_44eb290228c625ef8992031138f6bc98)
+        ;
+
+        
+    
+    
+            var circle_marker_132ed8c6e3461f2151e116cdac286f19 = L.circleMarker(
+                [40.827595087719295, -73.92414070175438],
+                {"bubblingMouseEvents": true, "color": "#49a400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#49a400ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_f4098b676cbef47dbef262d4d99d738a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72a73ca53f7bfb2c2665d26df374cdbb = $(`<div id="html_72a73ca53f7bfb2c2665d26df374cdbb" style="width: 100.0%; height: 100.0%;">Concourse: $84.81</div>`)[0];
+                popup_f4098b676cbef47dbef262d4d99d738a.setContent(html_72a73ca53f7bfb2c2665d26df374cdbb);
+            
+        
+
+        circle_marker_132ed8c6e3461f2151e116cdac286f19.bindPopup(popup_f4098b676cbef47dbef262d4d99d738a)
+        ;
+
+        
+    
+    
+            var circle_marker_9d4af22f553c13a6fa1cd514dc6cf4a1 = L.circleMarker(
+                [40.830144999999995, -73.917255],
+                {"bubblingMouseEvents": true, "color": "#239100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#239100ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_ebe2b38398e64456e0121d79b7fa73f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dfc4b56019fd6a55e833806bafcda59 = $(`<div id="html_9dfc4b56019fd6a55e833806bafcda59" style="width: 100.0%; height: 100.0%;">Concourse Village: $67.76</div>`)[0];
+                popup_ebe2b38398e64456e0121d79b7fa73f2.setContent(html_9dfc4b56019fd6a55e833806bafcda59);
+            
+        
+
+        circle_marker_9d4af22f553c13a6fa1cd514dc6cf4a1.bindPopup(popup_ebe2b38398e64456e0121d79b7fa73f2)
+        ;
+
+        
+    
+    
+            var circle_marker_396c1bf55378cb9641bce68a32d1ab6f = L.circleMarker(
+                [40.83131529411765, -73.8885205882353],
+                {"bubblingMouseEvents": true, "color": "#5dae00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5dae00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_4b6fdb1aff7ea812851f3696f2dc5401 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67bba8af163881e06e075f42818811b6 = $(`<div id="html_67bba8af163881e06e075f42818811b6" style="width: 100.0%; height: 100.0%;">East Morrisania: $93.82</div>`)[0];
+                popup_4b6fdb1aff7ea812851f3696f2dc5401.setContent(html_67bba8af163881e06e075f42818811b6);
+            
+        
+
+        circle_marker_396c1bf55378cb9641bce68a32d1ab6f.bindPopup(popup_4b6fdb1aff7ea812851f3696f2dc5401)
+        ;
+
+        
+    
+    
+            var circle_marker_8454f9dfa2db35fc0462dd88ba45f146 = L.circleMarker(
+                [40.882462, -73.83212999999999],
+                {"bubblingMouseEvents": true, "color": "#edf600ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#edf600ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_8b510ac38d5e577d3d32f820c91b9926 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3769d72d20325a8ec23bf98c2bde940 = $(`<div id="html_d3769d72d20325a8ec23bf98c2bde940" style="width: 100.0%; height: 100.0%;">Eastchester: $158.40</div>`)[0];
+                popup_8b510ac38d5e577d3d32f820c91b9926.setContent(html_d3769d72d20325a8ec23bf98c2bde940);
+            
+        
+
+        circle_marker_8454f9dfa2db35fc0462dd88ba45f146.bindPopup(popup_8b510ac38d5e577d3d32f820c91b9926)
+        ;
+
+        
+    
+    
+            var circle_marker_3a209361eff886ace1b864a66e28c3ae = L.circleMarker(
+                [40.8876175, -73.838975625],
+                {"bubblingMouseEvents": true, "color": "#73b900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#73b900ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_eff666bf9a165e6d6fd280e691b55eb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfcc60ddbe9ad2b39e4bf94211777b87 = $(`<div id="html_bfcc60ddbe9ad2b39e4bf94211777b87" style="width: 100.0%; height: 100.0%;">Edenwald: $103.75</div>`)[0];
+                popup_eff666bf9a165e6d6fd280e691b55eb3.setContent(html_bfcc60ddbe9ad2b39e4bf94211777b87);
+            
+        
+
+        circle_marker_3a209361eff886ace1b864a66e28c3ae.bindPopup(popup_eff666bf9a165e6d6fd280e691b55eb3)
+        ;
+
+        
+    
+    
+            var circle_marker_92a49fe8a23e91d03195a8ab2522aea6 = L.circleMarker(
+                [40.89227666666667, -73.90259166666667],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_455d30d527c81f1dc39d97566322c873 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_621e19cd1266ae50f6ea329a43119a8f = $(`<div id="html_621e19cd1266ae50f6ea329a43119a8f" style="width: 100.0%; height: 100.0%;">Fieldston: $281.50</div>`)[0];
+                popup_455d30d527c81f1dc39d97566322c873.setContent(html_621e19cd1266ae50f6ea329a43119a8f);
+            
+        
+
+        circle_marker_92a49fe8a23e91d03195a8ab2522aea6.bindPopup(popup_455d30d527c81f1dc39d97566322c873)
+        ;
+
+        
+    
+    
+            var circle_marker_5c78f789e9185c0a34db73b126b099b9 = L.circleMarker(
+                [40.86238955555556, -73.8951411111111],
+                {"bubblingMouseEvents": true, "color": "#379c00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#379c00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_b72185efbb9fc2599a0105011c32cdc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2e05a6de055c21772e2ea81616f0f84 = $(`<div id="html_e2e05a6de055c21772e2ea81616f0f84" style="width: 100.0%; height: 100.0%;">Fordham: $77.04</div>`)[0];
+                popup_b72185efbb9fc2599a0105011c32cdc5.setContent(html_e2e05a6de055c21772e2ea81616f0f84);
+            
+        
+
+        circle_marker_5c78f789e9185c0a34db73b126b099b9.bindPopup(popup_b72185efbb9fc2599a0105011c32cdc5)
+        ;
+
+        
+    
+    
+            var circle_marker_ea506ef5dbe548b8a97a7d4817baec7e = L.circleMarker(
+                [40.835301333333334, -73.92713766666667],
+                {"bubblingMouseEvents": true, "color": "#379c00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#379c00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_83bd56e60deb4cbef0587d341ff1f527 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d70ec0a98f7e6ff2342d43358e813b1f = $(`<div id="html_d70ec0a98f7e6ff2342d43358e813b1f" style="width: 100.0%; height: 100.0%;">Highbridge: $76.90</div>`)[0];
+                popup_83bd56e60deb4cbef0587d341ff1f527.setContent(html_d70ec0a98f7e6ff2342d43358e813b1f);
+            
+        
+
+        circle_marker_ea506ef5dbe548b8a97a7d4817baec7e.bindPopup(popup_83bd56e60deb4cbef0587d341ff1f527)
+        ;
+
+        
+    
+    
+            var circle_marker_e63d9d4251231c8177079adfac7af4a9 = L.circleMarker(
+                [40.81494416666667, -73.88825291666667],
+                {"bubblingMouseEvents": true, "color": "#0a8500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a8500ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_f5956b6dcd1a31487f4f49cace48eca0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07e6176892063fe735865855c276a68a = $(`<div id="html_07e6176892063fe735865855c276a68a" style="width: 100.0%; height: 100.0%;">Hunts Point: $56.58</div>`)[0];
+                popup_f5956b6dcd1a31487f4f49cace48eca0.setContent(html_07e6176892063fe735865855c276a68a);
+            
+        
+
+        circle_marker_e63d9d4251231c8177079adfac7af4a9.bindPopup(popup_f5956b6dcd1a31487f4f49cace48eca0)
+        ;
+
+        
+    
+    
+            var circle_marker_9ca679f403a4fbb6352dd4f4a43780a6 = L.circleMarker(
+                [40.87813102941177, -73.90171617647059],
+                {"bubblingMouseEvents": true, "color": "#59ad00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59ad00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_3750a2d1bb5bc34982fc601df182e948 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fac626d9abe69221ecdd30839e20511e = $(`<div id="html_fac626d9abe69221ecdd30839e20511e" style="width: 100.0%; height: 100.0%;">Kingsbridge: $92.32</div>`)[0];
+                popup_3750a2d1bb5bc34982fc601df182e948.setContent(html_fac626d9abe69221ecdd30839e20511e);
+            
+        
+
+        circle_marker_9ca679f403a4fbb6352dd4f4a43780a6.bindPopup(popup_3750a2d1bb5bc34982fc601df182e948)
+        ;
+
+        
+    
+    
+            var circle_marker_f24f1bd51171c42fbda91831dd227453 = L.circleMarker(
+                [40.82056666666667, -73.90216492063493],
+                {"bubblingMouseEvents": true, "color": "#61b000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#61b000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_84edddcd8b0c16599caf217e94058383 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14772d6c0a8b1cb7035b37901d66c377 = $(`<div id="html_14772d6c0a8b1cb7035b37901d66c377" style="width: 100.0%; height: 100.0%;">Longwood: $95.63</div>`)[0];
+                popup_84edddcd8b0c16599caf217e94058383.setContent(html_14772d6c0a8b1cb7035b37901d66c377);
+            
+        
+
+        circle_marker_f24f1bd51171c42fbda91831dd227453.bindPopup(popup_84edddcd8b0c16599caf217e94058383)
+        ;
+
+        
+    
+    
+            var circle_marker_2c999d1f9e1ed9fb25c2f8c9a0a3f795 = L.circleMarker(
+                [40.82203, -73.9148575],
+                {"bubblingMouseEvents": true, "color": "#1c8e00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1c8e00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_fd98f724622b32445ff4077412043b80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86d121609b94e222df6792b9cfbe97aa = $(`<div id="html_86d121609b94e222df6792b9cfbe97aa" style="width: 100.0%; height: 100.0%;">Melrose: $64.62</div>`)[0];
+                popup_fd98f724622b32445ff4077412043b80.setContent(html_86d121609b94e222df6792b9cfbe97aa);
+            
+        
+
+        circle_marker_2c999d1f9e1ed9fb25c2f8c9a0a3f795.bindPopup(popup_fd98f724622b32445ff4077412043b80)
+        ;
+
+        
+    
+    
+            var circle_marker_aaf844ef9e9670ab1097dc22fe0a8c1e = L.circleMarker(
+                [40.84996761904762, -73.91638142857143],
+                {"bubblingMouseEvents": true, "color": "#339a00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#339a00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_b333d6ed35fe381c758160936080e3e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f55ac3e30d361aeab1e6f721f2729e3 = $(`<div id="html_3f55ac3e30d361aeab1e6f721f2729e3" style="width: 100.0%; height: 100.0%;">Morris Heights: $75.33</div>`)[0];
+                popup_b333d6ed35fe381c758160936080e3e6.setContent(html_3f55ac3e30d361aeab1e6f721f2729e3);
+            
+        
+
+        circle_marker_aaf844ef9e9670ab1097dc22fe0a8c1e.bindPopup(popup_b333d6ed35fe381c758160936080e3e6)
+        ;
+
+        
+    
+    
+            var circle_marker_f7b2eef896abec0b65ae62b6c8890c05 = L.circleMarker(
+                [40.85181619047619, -73.85372428571429],
+                {"bubblingMouseEvents": true, "color": "#279400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#279400ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_acdd86fb85f3fad99c832d68f72255be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7427d101355daefbdd1ad5d41cedd804 = $(`<div id="html_7427d101355daefbdd1ad5d41cedd804" style="width: 100.0%; height: 100.0%;">Morris Park: $69.95</div>`)[0];
+                popup_acdd86fb85f3fad99c832d68f72255be.setContent(html_7427d101355daefbdd1ad5d41cedd804);
+            
+        
+
+        circle_marker_f7b2eef896abec0b65ae62b6c8890c05.bindPopup(popup_acdd86fb85f3fad99c832d68f72255be)
+        ;
+
+        
+    
+    
+            var circle_marker_e5744c0acc07571f93151660da2e75c8 = L.circleMarker(
+                [40.82862153846153, -73.90463423076923],
+                {"bubblingMouseEvents": true, "color": "#45a200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#45a200ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_16c279ec8de9c721cda2fff4e9951806 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ccd3abfd7944363aa791707be93e8fb = $(`<div id="html_8ccd3abfd7944363aa791707be93e8fb" style="width: 100.0%; height: 100.0%;">Morrisania: $83.04</div>`)[0];
+                popup_16c279ec8de9c721cda2fff4e9951806.setContent(html_8ccd3abfd7944363aa791707be93e8fb);
+            
+        
+
+        circle_marker_e5744c0acc07571f93151660da2e75c8.bindPopup(popup_16c279ec8de9c721cda2fff4e9951806)
+        ;
+
+        
+    
+    
+            var circle_marker_2ba99a3c3c4e6955e8f970520cfd1ded = L.circleMarker(
+                [40.810770338983055, -73.91964050847457],
+                {"bubblingMouseEvents": true, "color": "#68b400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#68b400ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_a958f0d713aec56fa8963627e9dabad1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4999c28f7c9ff49318ab39d4afd0f547 = $(`<div id="html_4999c28f7c9ff49318ab39d4afd0f547" style="width: 100.0%; height: 100.0%;">Mott Haven: $98.95</div>`)[0];
+                popup_a958f0d713aec56fa8963627e9dabad1.setContent(html_4999c28f7c9ff49318ab39d4afd0f547);
+            
+        
+
+        circle_marker_2ba99a3c3c4e6955e8f970520cfd1ded.bindPopup(popup_a958f0d713aec56fa8963627e9dabad1)
+        ;
+
+        
+    
+    
+            var circle_marker_e63682adc84b7c1ddf09d9c1a72516aa = L.circleMarker(
+                [40.841906, -73.916116],
+                {"bubblingMouseEvents": true, "color": "#209000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#209000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_3760a26e9fa62c7d311d254f243a7886 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1382cb0a1a49bb1bdf704f7b2af4c361 = $(`<div id="html_1382cb0a1a49bb1bdf704f7b2af4c361" style="width: 100.0%; height: 100.0%;">Mount Eden: $66.80</div>`)[0];
+                popup_3760a26e9fa62c7d311d254f243a7886.setContent(html_1382cb0a1a49bb1bdf704f7b2af4c361);
+            
+        
+
+        circle_marker_e63682adc84b7c1ddf09d9c1a72516aa.bindPopup(popup_3760a26e9fa62c7d311d254f243a7886)
+        ;
+
+        
+    
+    
+            var circle_marker_67bde4fbe8c1d3b8b39941c79f0bfcf3 = L.circleMarker(
+                [40.84869821428571, -73.90558214285714],
+                {"bubblingMouseEvents": true, "color": "#5aad00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5aad00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_6ed23d8a8d13600dc2bf2d2482715dc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0e99fd684de6e59cd7ec50bcfbd9cbc = $(`<div id="html_d0e99fd684de6e59cd7ec50bcfbd9cbc" style="width: 100.0%; height: 100.0%;">Mount Hope: $92.61</div>`)[0];
+                popup_6ed23d8a8d13600dc2bf2d2482715dc3.setContent(html_d0e99fd684de6e59cd7ec50bcfbd9cbc);
+            
+        
+
+        circle_marker_67bde4fbe8c1d3b8b39941c79f0bfcf3.bindPopup(popup_6ed23d8a8d13600dc2bf2d2482715dc3)
+        ;
+
+        
+    
+    
+            var circle_marker_bf51c5ccd156cddb4365a478b83fbba8 = L.circleMarker(
+                [40.907935, -73.9011375],
+                {"bubblingMouseEvents": true, "color": "#5cae00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5cae00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_57f67714489bd327b12b3352d29c728d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0be151dfc59bce3eeceb4c9e212cca2 = $(`<div id="html_c0be151dfc59bce3eeceb4c9e212cca2" style="width: 100.0%; height: 100.0%;">North Riverdale: $93.50</div>`)[0];
+                popup_57f67714489bd327b12b3352d29c728d.setContent(html_c0be151dfc59bce3eeceb4c9e212cca2);
+            
+        
+
+        circle_marker_bf51c5ccd156cddb4365a478b83fbba8.bindPopup(popup_57f67714489bd327b12b3352d29c728d)
+        ;
+
+        
+    
+    
+            var circle_marker_653db58c94ae470795b8cbfe20e7aeed = L.circleMarker(
+                [40.87506684210526, -73.88087999999999],
+                {"bubblingMouseEvents": true, "color": "#339a00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#339a00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_62c3122308a8d7f075222383adb11c91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7118992a35d69a274407d725733c5306 = $(`<div id="html_7118992a35d69a274407d725733c5306" style="width: 100.0%; height: 100.0%;">Norwood: $75.11</div>`)[0];
+                popup_62c3122308a8d7f075222383adb11c91.setContent(html_7118992a35d69a274407d725733c5306);
+            
+        
+
+        circle_marker_653db58c94ae470795b8cbfe20e7aeed.bindPopup(popup_62c3122308a8d7f075222383adb11c91)
+        ;
+
+        
+    
+    
+            var circle_marker_86e3c9eac65097f221e7d0c7fc0f6223 = L.circleMarker(
+                [40.88313, -73.86443571428572],
+                {"bubblingMouseEvents": true, "color": "#108800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#108800ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_ff151f9e61ac39f5bab7cca5ac29430c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb8441859157fbd4c94d4df97cb14f17 = $(`<div id="html_fb8441859157fbd4c94d4df97cb14f17" style="width: 100.0%; height: 100.0%;">Olinville: $59.43</div>`)[0];
+                popup_ff151f9e61ac39f5bab7cca5ac29430c.setContent(html_fb8441859157fbd4c94d4df97cb14f17);
+            
+        
+
+        circle_marker_86e3c9eac65097f221e7d0c7fc0f6223.bindPopup(popup_ff151f9e61ac39f5bab7cca5ac29430c)
+        ;
+
+        
+    
+    
+            var circle_marker_bc880969ed49b89633eacfd188768ffe = L.circleMarker(
+                [40.836236041666666, -73.86432458333333],
+                {"bubblingMouseEvents": true, "color": "#48a400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#48a400ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_43664b46aaecf5ea19e0bcc8518607cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2328f7e7eb0c52b7a10eb3b582c7ce48 = $(`<div id="html_2328f7e7eb0c52b7a10eb3b582c7ce48" style="width: 100.0%; height: 100.0%;">Parkchester: $84.40</div>`)[0];
+                popup_43664b46aaecf5ea19e0bcc8518607cb.setContent(html_2328f7e7eb0c52b7a10eb3b582c7ce48);
+            
+        
+
+        circle_marker_bc880969ed49b89633eacfd188768ffe.bindPopup(popup_43664b46aaecf5ea19e0bcc8518607cb)
+        ;
+
+        
+    
+    
+            var circle_marker_bf03f6c27fdd81c7efabbf92961978d9 = L.circleMarker(
+                [40.84977615384616, -73.83146615384615],
+                {"bubblingMouseEvents": true, "color": "#b2d900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b2d900ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_72f855d508f8eea1cc3c85945025eee0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46e3d24e8e816ad95fa7ad0e1f6b84cf = $(`<div id="html_46e3d24e8e816ad95fa7ad0e1f6b84cf" style="width: 100.0%; height: 100.0%;">Pelham Bay: $131.92</div>`)[0];
+                popup_72f855d508f8eea1cc3c85945025eee0.setContent(html_46e3d24e8e816ad95fa7ad0e1f6b84cf);
+            
+        
+
+        circle_marker_bf03f6c27fdd81c7efabbf92961978d9.bindPopup(popup_72f855d508f8eea1cc3c85945025eee0)
+        ;
+
+        
+    
+    
+            var circle_marker_129cedd7c3c53598abd4e273a7671144 = L.circleMarker(
+                [40.86371633333333, -73.84317833333333],
+                {"bubblingMouseEvents": true, "color": "#91c800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#91c800ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_8a3648a4709e5234e7a2d5e4f42d8830 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a0acd57850f042df24fbc888df3b3c1 = $(`<div id="html_1a0acd57850f042df24fbc888df3b3c1" style="width: 100.0%; height: 100.0%;">Pelham Gardens: $117.23</div>`)[0];
+                popup_8a3648a4709e5234e7a2d5e4f42d8830.setContent(html_1a0acd57850f042df24fbc888df3b3c1);
+            
+        
+
+        circle_marker_129cedd7c3c53598abd4e273a7671144.bindPopup(popup_8a3648a4709e5234e7a2d5e4f42d8830)
+        ;
+
+        
+    
+    
+            var circle_marker_d44755a262c40bc622bb789c3673c492 = L.circleMarker(
+                [40.80649948717949, -73.92577666666666],
+                {"bubblingMouseEvents": true, "color": "#5faf00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5faf00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_785381a4bba6f493e309820965c0a975 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76e450de0748183c635e82df37ce3c17 = $(`<div id="html_76e450de0748183c635e82df37ce3c17" style="width: 100.0%; height: 100.0%;">Port Morris: $94.67</div>`)[0];
+                popup_785381a4bba6f493e309820965c0a975.setContent(html_76e450de0748183c635e82df37ce3c17);
+            
+        
+
+        circle_marker_d44755a262c40bc622bb789c3673c492.bindPopup(popup_785381a4bba6f493e309820965c0a975)
+        ;
+
+        
+    
+    
+            var circle_marker_c316646cd4e6bbf55f82d5eccdd1bcbf = L.circleMarker(
+                [40.886034, -73.91184799999999],
+                {"bubblingMouseEvents": true, "color": "#ff4900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff4900ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_27b145bd4c39bbbdd88907012c7cab2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb6c7d8bd106e814265c483ad9940dd1 = $(`<div id="html_cb6c7d8bd106e814265c483ad9940dd1" style="width: 100.0%; height: 100.0%;">Riverdale: $248.60</div>`)[0];
+                popup_27b145bd4c39bbbdd88907012c7cab2a.setContent(html_cb6c7d8bd106e814265c483ad9940dd1);
+            
+        
+
+        circle_marker_c316646cd4e6bbf55f82d5eccdd1bcbf.bindPopup(popup_27b145bd4c39bbbdd88907012c7cab2a)
+        ;
+
+        
+    
+    
+            var circle_marker_bc8ec45eea6c9222ca745f4b340cc564 = L.circleMarker(
+                [40.83589076923077, -73.83281923076923],
+                {"bubblingMouseEvents": true, "color": "#168b00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#168b00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_94711ea482d53f62e9fcd9ff7eb5ccd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db7359cd2db528593887a17e4b9dcd47 = $(`<div id="html_db7359cd2db528593887a17e4b9dcd47" style="width: 100.0%; height: 100.0%;">Schuylerville: $62.00</div>`)[0];
+                popup_94711ea482d53f62e9fcd9ff7eb5ccd4.setContent(html_db7359cd2db528593887a17e4b9dcd47);
+            
+        
+
+        circle_marker_bc8ec45eea6c9222ca745f4b340cc564.bindPopup(popup_94711ea482d53f62e9fcd9ff7eb5ccd4)
+        ;
+
+        
+    
+    
+            var circle_marker_e444a9675d3f96cb199e5b679cbc3ca3 = L.circleMarker(
+                [40.826524444444445, -73.87102388888889],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_3ff4f8d8bc9f180c86b6a0c5d9f81c69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b426da11f3145356c6e600f7cd6971ca = $(`<div id="html_b426da11f3145356c6e600f7cd6971ca" style="width: 100.0%; height: 100.0%;">Soundview: $52.06</div>`)[0];
+                popup_3ff4f8d8bc9f180c86b6a0c5d9f81c69.setContent(html_b426da11f3145356c6e600f7cd6971ca);
+            
+        
+
+        circle_marker_e444a9675d3f96cb199e5b679cbc3ca3.bindPopup(popup_3ff4f8d8bc9f180c86b6a0c5d9f81c69)
+        ;
+
+        
+    
+    
+            var circle_marker_0e1ceb2aeabb50bfacebcde7cb69b521 = L.circleMarker(
+                [40.88121666666667, -73.91545333333333],
+                {"bubblingMouseEvents": true, "color": "#ffa000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_c7a5498ad2726ff816aa0a8c13649fa1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_898ae68106e63733dcb38f51e2d382cd = $(`<div id="html_898ae68106e63733dcb38f51e2d382cd" style="width: 100.0%; height: 100.0%;">Spuyten Duyvil: $209.67</div>`)[0];
+                popup_c7a5498ad2726ff816aa0a8c13649fa1.setContent(html_898ae68106e63733dcb38f51e2d382cd);
+            
+        
+
+        circle_marker_0e1ceb2aeabb50bfacebcde7cb69b521.bindPopup(popup_c7a5498ad2726ff816aa0a8c13649fa1)
+        ;
+
+        
+    
+    
+            var circle_marker_a30e6257c2908bf6caea90d2daf3daec = L.circleMarker(
+                [40.82448666666667, -73.82133555555555],
+                {"bubblingMouseEvents": true, "color": "#63b200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#63b200ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_c3e38605c7483a550f7361cea176e864 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89e46bec36c5f29cd7bd58180e5d553d = $(`<div id="html_89e46bec36c5f29cd7bd58180e5d553d" style="width: 100.0%; height: 100.0%;">Throgs Neck: $96.78</div>`)[0];
+                popup_c3e38605c7483a550f7361cea176e864.setContent(html_89e46bec36c5f29cd7bd58180e5d553d);
+            
+        
+
+        circle_marker_a30e6257c2908bf6caea90d2daf3daec.bindPopup(popup_c3e38605c7483a550f7361cea176e864)
+        ;
+
+        
+    
+    
+            var circle_marker_b7218f1bb333111f03630b88668392e8 = L.circleMarker(
+                [40.844421999999994, -73.89264849999999],
+                {"bubblingMouseEvents": true, "color": "#3b9d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3b9d00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_a3613d4c44ecef9d4fc26d9233536af5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d063752c5f3638020631c1acabbb52dd = $(`<div id="html_d063752c5f3638020631c1acabbb52dd" style="width: 100.0%; height: 100.0%;">Tremont: $78.50</div>`)[0];
+                popup_a3613d4c44ecef9d4fc26d9233536af5.setContent(html_d063752c5f3638020631c1acabbb52dd);
+            
+        
+
+        circle_marker_b7218f1bb333111f03630b88668392e8.bindPopup(popup_a3613d4c44ecef9d4fc26d9233536af5)
+        ;
+
+        
+    
+    
+            var circle_marker_1e28a6bf2fead0ded0c90c231f9d38ee = L.circleMarker(
+                [40.82916384615385, -73.85366615384615],
+                {"bubblingMouseEvents": true, "color": "#b8dc00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b8dc00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_8d8e6928f621ad7e500bc06b22cef013 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13e7d6e8745624da62ea47b177c88e5b = $(`<div id="html_13e7d6e8745624da62ea47b177c88e5b" style="width: 100.0%; height: 100.0%;">Unionport: $134.62</div>`)[0];
+                popup_8d8e6928f621ad7e500bc06b22cef013.setContent(html_13e7d6e8745624da62ea47b177c88e5b);
+            
+        
+
+        circle_marker_1e28a6bf2fead0ded0c90c231f9d38ee.bindPopup(popup_8d8e6928f621ad7e500bc06b22cef013)
+        ;
+
+        
+    
+    
+            var circle_marker_6aba19ef7d62235a8181226fa111b9fc = L.circleMarker(
+                [40.85763304347826, -73.90986304347827],
+                {"bubblingMouseEvents": true, "color": "#0c8600ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0c8600ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_e0a631ce589c3d353dafd4d39bf44e1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3271e545889bdbcfd345170a06791326 = $(`<div id="html_3271e545889bdbcfd345170a06791326" style="width: 100.0%; height: 100.0%;">University Heights: $57.83</div>`)[0];
+                popup_e0a631ce589c3d353dafd4d39bf44e1f.setContent(html_3271e545889bdbcfd345170a06791326);
+            
+        
+
+        circle_marker_6aba19ef7d62235a8181226fa111b9fc.bindPopup(popup_e0a631ce589c3d353dafd4d39bf44e1f)
+        ;
+
+        
+    
+    
+            var circle_marker_1b9e859ecb8a6a342af12194952c094d = L.circleMarker(
+                [40.84362642857143, -73.86470142857142],
+                {"bubblingMouseEvents": true, "color": "#81c100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#81c100ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_4d769db1f59e2dfa8d2d9163b3e34157 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da197b309e948a5de866affce3d3c555 = $(`<div id="html_da197b309e948a5de866affce3d3c555" style="width: 100.0%; height: 100.0%;">Van Nest: $110.14</div>`)[0];
+                popup_4d769db1f59e2dfa8d2d9163b3e34157.setContent(html_da197b309e948a5de866affce3d3c555);
+            
+        
+
+        circle_marker_1b9e859ecb8a6a342af12194952c094d.bindPopup(popup_4d769db1f59e2dfa8d2d9163b3e34157)
+        ;
+
+        
+    
+    
+            var circle_marker_0dd58667f96315a9ea7353acd5ac8712 = L.circleMarker(
+                [40.8945335443038, -73.8529117721519],
+                {"bubblingMouseEvents": true, "color": "#7ebf00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7ebf00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_9585c3fa75ba04407f3dfab33d457b92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8952ca21ce625744c484f8365c49a0f = $(`<div id="html_d8952ca21ce625744c484f8365c49a0f" style="width: 100.0%; height: 100.0%;">Wakefield: $108.68</div>`)[0];
+                popup_9585c3fa75ba04407f3dfab33d457b92.setContent(html_d8952ca21ce625744c484f8365c49a0f);
+            
+        
+
+        circle_marker_0dd58667f96315a9ea7353acd5ac8712.bindPopup(popup_9585c3fa75ba04407f3dfab33d457b92)
+        ;
+
+        
+    
+    
+            var circle_marker_200d16e95fe7d62d7f532100218ddda8 = L.circleMarker(
+                [40.84248, -73.88194666666668],
+                {"bubblingMouseEvents": true, "color": "#289400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#289400ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_a9e9e7174cf6232218d853acbfe45a1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd84c4139b39823c9e413357d11da82f = $(`<div id="html_dd84c4139b39823c9e413357d11da82f" style="width: 100.0%; height: 100.0%;">West Farms: $70.00</div>`)[0];
+                popup_a9e9e7174cf6232218d853acbfe45a1d.setContent(html_dd84c4139b39823c9e413357d11da82f);
+            
+        
+
+        circle_marker_200d16e95fe7d62d7f532100218ddda8.bindPopup(popup_a9e9e7174cf6232218d853acbfe45a1d)
+        ;
+
+        
+    
+    
+            var circle_marker_729d78b3eb336a5e3c77fcc135900a7a = L.circleMarker(
+                [40.839925, -73.84633875],
+                {"bubblingMouseEvents": true, "color": "#299500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#299500ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_78a7637499ca8be2ff7d11c27830e626 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e55b15cde3952b1757732ea9bd94ece = $(`<div id="html_3e55b15cde3952b1757732ea9bd94ece" style="width: 100.0%; height: 100.0%;">Westchester Square: $70.88</div>`)[0];
+                popup_78a7637499ca8be2ff7d11c27830e626.setContent(html_3e55b15cde3952b1757732ea9bd94ece);
+            
+        
+
+        circle_marker_729d78b3eb336a5e3c77fcc135900a7a.bindPopup(popup_78a7637499ca8be2ff7d11c27830e626)
+        ;
+
+        
+    
+    
+            var circle_marker_6de2b5c69befc30677178bdece22c97e = L.circleMarker(
+                [40.878722, -73.85808844444445],
+                {"bubblingMouseEvents": true, "color": "#85c200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#85c200ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_a634e67fd0374e197b03f3efce130470 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e08694c3a6190bb782bffb7c184a7f9 = $(`<div id="html_4e08694c3a6190bb782bffb7c184a7f9" style="width: 100.0%; height: 100.0%;">Williamsbridge: $111.89</div>`)[0];
+                popup_a634e67fd0374e197b03f3efce130470.setContent(html_4e08694c3a6190bb782bffb7c184a7f9);
+            
+        
+
+        circle_marker_6de2b5c69befc30677178bdece22c97e.bindPopup(popup_a634e67fd0374e197b03f3efce130470)
+        ;
+
+        
+    
+    
+            var circle_marker_aec8b1a714013774469cca5b386d330e = L.circleMarker(
+                [40.89425083333334, -73.86823249999999],
+                {"bubblingMouseEvents": true, "color": "#69b400ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#69b400ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+        
+    
+        var popup_1dcfeffab6a2d65de985f62f4626aaae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65d807b265b1489a8db3f986c98857c1 = $(`<div id="html_65d807b265b1489a8db3f986c98857c1" style="width: 100.0%; height: 100.0%;">Woodlawn: $99.17</div>`)[0];
+                popup_1dcfeffab6a2d65de985f62f4626aaae.setContent(html_65d807b265b1489a8db3f986c98857c1);
+            
+        
+
+        circle_marker_aec8b1a714013774469cca5b386d330e.bindPopup(popup_1dcfeffab6a2d65de985f62f4626aaae)
+        ;
+
+        
+    
+    
+    var color_map_d10b8a0e49989acd29447b59be917705 = {};
+
+    
+    color_map_d10b8a0e49989acd29447b59be917705.color = d3.scale.threshold()
+              .domain([52.05555555555556, 52.515364061456246, 52.975172567356935, 53.43498107325763, 53.89478957915832, 54.35459808505901, 54.8144065909597, 55.27421509686039, 55.73402360276108, 56.193832108661766, 56.65364061456246, 57.11344912046315, 57.57325762636384, 58.03306613226453, 58.49287463816522, 58.952683144065915, 59.412491649966604, 59.87230015586729, 60.33210866176798, 60.79191716766867, 61.25172567356936, 61.71153417947005, 62.171342685370746, 62.631151191271435, 63.090959697172124, 63.55076820307281, 64.0105767089735, 64.4703852148742, 64.93019372077488, 65.39000222667558, 65.84981073257626, 66.30961923847696, 66.76942774437765, 67.22923625027833, 67.68904475617903, 68.14885326207971, 68.60866176798041, 69.0684702738811, 69.52827877978179, 69.98808728568248, 70.44789579158316, 70.90770429748386, 71.36751280338456, 71.82732130928524, 72.28712981518593, 72.74693832108662, 73.20674682698731, 73.666555332888, 74.12636383878869, 74.58617234468939, 75.04598085059007, 75.50578935649077, 75.96559786239145, 76.42540636829214, 76.88521487419283, 77.34502338009352, 77.80483188599422, 78.2646403918949, 78.7244488977956, 79.18425740369628, 79.64406590959697, 80.10387441549767, 80.56368292139835, 81.02349142729905, 81.48329993319973, 81.94310843910043, 82.40291694500112, 82.8627254509018, 83.32253395680249, 83.78234246270318, 84.24215096860388, 84.70195947450458, 85.16176798040526, 85.62157648630594, 86.08138499220664, 86.54119349810733, 87.00100200400801, 87.46081050990871, 87.9206190158094, 88.38042752171009, 88.84023602761079, 89.30004453351147, 89.75985303941216, 90.21966154531285, 90.67947005121354, 91.13927855711424, 91.59908706301492, 92.05889556891562, 92.5187040748163, 92.978512580717, 93.43832108661769, 93.89812959251837, 94.35793809841905, 94.81774660431975, 95.27755511022045, 95.73736361612114, 96.19717212202183, 96.65698062792251, 97.1167891338232, 97.5765976397239, 98.0364061456246, 98.49621465152528, 98.95602315742596, 99.41583166332666, 99.87564016922735, 100.33544867512803, 100.79525718102873, 101.25506568692941, 101.71487419283011, 102.1746826987308, 102.63449120463149, 103.09429971053218, 103.55410821643287, 104.01391672233356, 104.47372522823426, 104.93353373413494, 105.39334224003564, 105.85315074593632, 106.31295925183701, 106.77276775773771, 107.23257626363839, 107.69238476953909, 108.15219327543977, 108.61200178134047, 109.07181028724116, 109.53161879314185, 109.99142729904253, 110.45123580494322, 110.91104431084392, 111.37085281674462, 111.8306613226453, 112.29046982854598, 112.75027833444668, 113.21008684034737, 113.66989534624807, 114.12970385214874, 114.58951235804943, 115.04932086395013, 115.50912936985083, 115.96893787575152, 116.42874638165219, 116.88855488755289, 117.34836339345358, 117.80817189935426, 118.26798040525496, 118.72778891115564, 119.18759741705634, 119.64740592295703, 120.10721442885773, 120.56702293475841, 121.02683144065911, 121.48663994655979, 121.94644845246047, 122.40625695836117, 122.86606546426187, 123.32587397016255, 123.78568247606324, 124.24549098196394, 124.70529948786462, 125.16510799376532, 125.624916499666, 126.08472500556668, 126.54453351146738, 127.00434201736807, 127.46415052326877, 127.92395902916945, 128.38376753507015, 128.84357604097085, 129.30338454687154, 129.76319305277224, 130.2230015586729, 130.68281006457357, 131.14261857047427, 131.60242707637497, 132.06223558227566, 132.52204408817636, 132.98185259407705, 133.44166109997775, 133.90146960587845, 134.36127811177911, 134.8210866176798, 135.28089512358048, 135.74070362948117, 136.20051213538187, 136.66032064128257, 137.12012914718326, 137.57993765308396, 138.03974615898466, 138.49955466488532, 138.95936317078602, 139.41917167668672, 139.87898018258738, 140.33878868848808, 140.79859719438878, 141.25840570028947, 141.71821420619017, 142.17802271209086, 142.63783121799153, 143.09763972389223, 143.55744822979293, 144.01725673569362, 144.4770652415943, 144.93687374749499, 145.39668225339568, 145.85649075929638, 146.31629926519707, 146.77610777109777, 147.23591627699844, 147.69572478289913, 148.15553328879983, 148.6153417947005, 149.0751503006012, 149.5349588065019, 149.9947673124026, 150.45457581830328, 150.91438432420398, 151.37419283010468, 151.83400133600534, 152.29380984190604, 152.75361834780674, 153.2134268537074, 153.6732353596081, 154.1330438655088, 154.5928523714095, 155.0526608773102, 155.51246938321088, 155.97227788911158, 156.43208639501225, 156.89189490091294, 157.35170340681364, 157.8115119127143, 158.271320418615, 158.7311289245157, 159.1909374304164, 159.6507459363171, 160.1105544422178, 160.57036294811846, 161.03017145401915, 161.48997995991985, 161.94978846582055, 162.40959697172121, 162.8694054776219, 163.3292139835226, 163.7890224894233, 164.248830995324, 164.7086395012247, 165.16844800712536, 165.62825651302606, 166.08806501892676, 166.54787352482742, 167.00768203072812, 167.46749053662882, 167.9272990425295, 168.3871075484302, 168.8469160543309, 169.3067245602316, 169.76653306613227, 170.22634157203296, 170.68615007793366, 171.14595858383433, 171.60576708973502, 172.06557559563572, 172.52538410153642, 172.9851926074371, 173.4450011133378, 173.9048096192385, 174.36461812513917, 174.82442663103987, 175.28423513694057, 175.74404364284123, 176.20385214874193, 176.66366065464263, 177.12346916054332, 177.58327766644402, 178.04308617234472, 178.50289467824538, 178.96270318414608, 179.42251169004678, 179.88232019594747, 180.34212870184814, 180.80193720774884, 181.26174571364953, 181.72155421955023, 182.18136272545092, 182.64117123135162, 183.10097973725232, 183.56078824315296, 184.02059674905365, 184.48040525495435, 184.94021376085504, 185.40002226675574, 185.85983077265644, 186.31963927855713, 186.77944778445777, 187.23925629035853, 187.69906479625917, 188.15887330215992, 188.61868180806056, 189.07849031396125, 189.53829881986195, 189.99810732576265, 190.45791583166334, 190.91772433756404, 191.37753284346473, 191.83734134936537, 192.29714985526613, 192.75695836116677, 193.21676686706746, 193.67657537296816, 194.13638387886886, 194.59619238476955, 195.05600089067025, 195.51580939657094, 195.97561790247158, 196.43542640837234, 196.89523491427298, 197.35504342017367, 197.81485192607437, 198.27466043197506, 198.73446893787576, 199.19427744377646, 199.65408594967715, 200.1138944555778, 200.57370296147855, 201.03351146737918, 201.49331997327994, 201.95312847918058, 202.41293698508127, 202.87274549098197, 203.33255399688267, 203.79236250278336, 204.25217100868406, 204.71197951458475, 205.1717880204854, 205.63159652638615, 206.0914050322868, 206.55121353818748, 207.01102204408818, 207.47083054998888, 207.93063905588957, 208.39044756179027, 208.85025606769096, 209.3100645735916, 209.76987307949236, 210.229681585393, 210.6894900912937, 211.1492985971944, 211.60910710309508, 212.06891560899578, 212.52872411489648, 212.98853262079717, 213.44834112669787, 213.90814963259857, 214.3679581384992, 214.82776664439996, 215.2875751503006, 215.7473836562013, 216.207192162102, 216.6670006680027, 217.12680917390338, 217.58661767980408, 218.04642618570477, 218.5062346916054, 218.96604319750617, 219.4258517034068, 219.8856602093075, 220.3454687152082, 220.8052772211089, 221.2650857270096, 221.7248942329103, 222.18470273881098, 222.64451124471162, 223.10431975061238, 223.56412825651302, 224.02393676241377, 224.4837452683144, 224.9435537742151, 225.4033622801158, 225.8631707860165, 226.3229792919172, 226.7827877978179, 227.24259630371859, 227.70240480961922, 228.16221331551998, 228.62202182142062, 229.0818303273213, 229.541638833222, 230.0014473391227, 230.4612558450234, 230.9210643509241, 231.3808728568248, 231.84068136272543, 232.3004898686262, 232.76029837452683, 233.22010688042752, 233.67991538632822, 234.13972389222891, 234.5995323981296, 235.0593409040303, 235.519149409931, 235.9789579158317, 236.4387664217324, 236.89857492763304, 237.35838343353373, 237.81819193943443, 238.27800044533512, 238.73780895123582, 239.19761745713652, 239.6574259630372, 240.1172344689379, 240.5770429748386, 241.03685148073924, 241.49665998663994, 241.95646849254064, 242.41627699844133, 242.87608550434203, 243.33589401024273, 243.79570251614342, 244.25551102204412, 244.7153195279448, 245.17512803384545, 245.63493653974615, 246.09474504564685, 246.55455355154754, 247.01436205744824, 247.47417056334893, 247.93397906924963, 248.39378757515033, 248.85359608105102, 249.31340458695172, 249.77321309285236, 250.23302159875306, 250.69283010465375, 251.15263861055445, 251.61244711645514, 252.07225562235584, 252.53206412825654, 252.99187263415723, 253.45168114005793, 253.91148964595857, 254.37129815185926, 254.83110665775996, 255.29091516366066, 255.75072366956135, 256.21053217546205, 256.67034068136275, 257.13014918726344, 257.58995769316414, 258.04976619906483, 258.5095747049655, 258.96938321086617, 259.42919171676687, 259.88900022266756, 260.34880872856826, 260.80861723446895, 261.26842574036965, 261.72823424627035, 262.18804275217104, 262.64785125807174, 263.1076597639724, 263.5674682698731, 264.02727677577377, 264.48708528167447, 264.94689378757516, 265.40670229347586, 265.86651079937656, 266.32631930527725, 266.78612781117795, 267.2459363170786, 267.7057448229793, 268.16555332888, 268.6253618347807, 269.0851703406814, 269.54497884658207, 270.00478735248277, 270.46459585838346, 270.92440436428416, 271.3842128701848, 271.84402137608555, 272.3038298819862, 272.7636383878869, 273.2234468937876, 273.6832553996883, 274.143063905589, 274.60287241148967, 275.06268091739037, 275.522489423291, 275.98229792919176, 276.4421064350924, 276.9019149409931, 277.3617234468938, 277.8215319527945, 278.2813404586952, 278.7411489645959, 279.2009574704966, 279.6607659763972, 280.12057448229797, 280.5803829881986, 281.0401914940993, 281.5])
+              .range(['#008000ff', '#018100ff', '#028100ff', '#038200ff', '#048200ff', '#058300ff', '#068300ff', '#078400ff', '#088400ff', '#098500ff', '#0a8500ff', '#0b8600ff', '#0c8600ff', '#0d8700ff', '#0e8700ff', '#0f8800ff', '#108800ff', '#118900ff', '#128900ff', '#138a00ff', '#148a00ff', '#158b00ff', '#168b00ff', '#178c00ff', '#188c00ff', '#198d00ff', '#1a8d00ff', '#1b8e00ff', '#1c8e00ff', '#1d8f00ff', '#1e8f00ff', '#1f9000ff', '#209000ff', '#219100ff', '#229100ff', '#239200ff', '#249200ff', '#259300ff', '#269300ff', '#289400ff', '#299400ff', '#2a9500ff', '#2b9500ff', '#2c9600ff', '#2d9600ff', '#2e9700ff', '#2f9800ff', '#309800ff', '#319900ff', '#329900ff', '#339a00ff', '#349a00ff', '#359b00ff', '#369b00ff', '#379c00ff', '#389c00ff', '#399d00ff', '#3a9d00ff', '#3b9e00ff', '#3c9e00ff', '#3d9f00ff', '#3e9f00ff', '#3fa000ff', '#40a000ff', '#41a100ff', '#42a100ff', '#43a200ff', '#44a200ff', '#45a300ff', '#46a300ff', '#47a400ff', '#48a400ff', '#49a500ff', '#4aa500ff', '#4ba600ff', '#4ca600ff', '#4da700ff', '#4fa700ff', '#50a800ff', '#51a800ff', '#52a900ff', '#53a900ff', '#54aa00ff', '#55aa00ff', '#56ab00ff', '#57ab00ff', '#58ac00ff', '#59ac00ff', '#5aad00ff', '#5bad00ff', '#5cae00ff', '#5daf00ff', '#5eaf00ff', '#5fb000ff', '#60b000ff', '#61b100ff', '#62b100ff', '#63b200ff', '#64b200ff', '#65b300ff', '#66b300ff', '#67b400ff', '#68b400ff', '#69b500ff', '#6ab500ff', '#6bb600ff', '#6cb600ff', '#6db700ff', '#6eb700ff', '#6fb800ff', '#70b800ff', '#71b900ff', '#72b900ff', '#73ba00ff', '#74ba00ff', '#75bb00ff', '#77bb00ff', '#78bc00ff', '#79bc00ff', '#7abd00ff', '#7bbd00ff', '#7cbe00ff', '#7dbe00ff', '#7ebf00ff', '#7fbf00ff', '#80c000ff', '#81c000ff', '#82c100ff', '#83c100ff', '#84c200ff', '#85c200ff', '#86c300ff', '#87c300ff', '#88c400ff', '#89c400ff', '#8ac500ff', '#8bc500ff', '#8cc600ff', '#8dc700ff', '#8ec700ff', '#8fc800ff', '#90c800ff', '#91c900ff', '#92c900ff', '#93ca00ff', '#94ca00ff', '#95cb00ff', '#96cb00ff', '#97cc00ff', '#98cc00ff', '#99cd00ff', '#9acd00ff', '#9bce00ff', '#9cce00ff', '#9ecf00ff', '#9fcf00ff', '#a0d000ff', '#a1d000ff', '#a2d100ff', '#a3d100ff', '#a4d200ff', '#a5d200ff', '#a6d300ff', '#a7d300ff', '#a8d400ff', '#a9d400ff', '#aad500ff', '#abd500ff', '#acd600ff', '#add600ff', '#aed700ff', '#afd700ff', '#b0d800ff', '#b1d800ff', '#b2d900ff', '#b3d900ff', '#b4da00ff', '#b5da00ff', '#b6db00ff', '#b7db00ff', '#b8dc00ff', '#b9dc00ff', '#badd00ff', '#bbde00ff', '#bcde00ff', '#bddf00ff', '#bedf00ff', '#bfe000ff', '#c0e000ff', '#c1e100ff', '#c2e100ff', '#c3e200ff', '#c5e200ff', '#c6e300ff', '#c7e300ff', '#c8e400ff', '#c9e400ff', '#cae500ff', '#cbe500ff', '#cce600ff', '#cde600ff', '#cee700ff', '#cfe700ff', '#d0e800ff', '#d1e800ff', '#d2e900ff', '#d3e900ff', '#d4ea00ff', '#d5ea00ff', '#d6eb00ff', '#d7eb00ff', '#d8ec00ff', '#d9ec00ff', '#daed00ff', '#dbed00ff', '#dcee00ff', '#ddee00ff', '#deef00ff', '#dfef00ff', '#e0f000ff', '#e1f000ff', '#e2f100ff', '#e3f100ff', '#e4f200ff', '#e5f200ff', '#e6f300ff', '#e7f300ff', '#e8f400ff', '#e9f500ff', '#eaf500ff', '#ebf600ff', '#edf600ff', '#eef700ff', '#eff700ff', '#f0f800ff', '#f1f800ff', '#f2f900ff', '#f3f900ff', '#f4fa00ff', '#f5fa00ff', '#f6fb00ff', '#f7fb00ff', '#f8fc00ff', '#f9fc00ff', '#fafd00ff', '#fbfd00ff', '#fcfe00ff', '#fdfe00ff', '#feff00ff', '#ffff00ff', '#ffff00ff', '#fffe00ff', '#fffd00ff', '#fffc00ff', '#fffb00ff', '#fffa00ff', '#fff900ff', '#fff800ff', '#fff700ff', '#fff600ff', '#fff500ff', '#fff400ff', '#fff300ff', '#fff200ff', '#fff100ff', '#fff000ff', '#ffef00ff', '#ffee00ff', '#ffed00ff', '#ffeb00ff', '#ffea00ff', '#ffe900ff', '#ffe800ff', '#ffe700ff', '#ffe600ff', '#ffe500ff', '#ffe400ff', '#ffe300ff', '#ffe200ff', '#ffe100ff', '#ffe000ff', '#ffdf00ff', '#ffde00ff', '#ffdd00ff', '#ffdc00ff', '#ffdb00ff', '#ffda00ff', '#ffd900ff', '#ffd800ff', '#ffd700ff', '#ffd600ff', '#ffd500ff', '#ffd400ff', '#ffd300ff', '#ffd200ff', '#ffd100ff', '#ffd000ff', '#ffcf00ff', '#ffce00ff', '#ffcd00ff', '#ffcc00ff', '#ffcb00ff', '#ffca00ff', '#ffc900ff', '#ffc800ff', '#ffc700ff', '#ffc600ff', '#ffc500ff', '#ffc300ff', '#ffc200ff', '#ffc100ff', '#ffc000ff', '#ffbf00ff', '#ffbe00ff', '#ffbd00ff', '#ffbc00ff', '#ffbb00ff', '#ffba00ff', '#ffb900ff', '#ffb800ff', '#ffb700ff', '#ffb600ff', '#ffb500ff', '#ffb400ff', '#ffb300ff', '#ffb200ff', '#ffb100ff', '#ffb000ff', '#ffaf00ff', '#ffae00ff', '#ffad00ff', '#ffac00ff', '#ffab00ff', '#ffaa00ff', '#ffa900ff', '#ffa800ff', '#ffa700ff', '#ffa600ff', '#ffa500ff', '#ffa400ff', '#ffa300ff', '#ffa200ff', '#ffa100ff', '#ffa000ff', '#ff9f00ff', '#ff9e00ff', '#ff9c00ff', '#ff9b00ff', '#ff9a00ff', '#ff9900ff', '#ff9800ff', '#ff9700ff', '#ff9600ff', '#ff9500ff', '#ff9400ff', '#ff9300ff', '#ff9200ff', '#ff9100ff', '#ff9000ff', '#ff8f00ff', '#ff8e00ff', '#ff8d00ff', '#ff8c00ff', '#ff8b00ff', '#ff8a00ff', '#ff8900ff', '#ff8800ff', '#ff8700ff', '#ff8600ff', '#ff8500ff', '#ff8400ff', '#ff8300ff', '#ff8200ff', '#ff8100ff', '#ff8000ff', '#ff7f00ff', '#ff7e00ff', '#ff7d00ff', '#ff7c00ff', '#ff7b00ff', '#ff7a00ff', '#ff7900ff', '#ff7800ff', '#ff7700ff', '#ff7500ff', '#ff7400ff', '#ff7300ff', '#ff7200ff', '#ff7100ff', '#ff7000ff', '#ff6f00ff', '#ff6e00ff', '#ff6d00ff', '#ff6c00ff', '#ff6b00ff', '#ff6a00ff', '#ff6900ff', '#ff6800ff', '#ff6700ff', '#ff6600ff', '#ff6500ff', '#ff6400ff', '#ff6300ff', '#ff6200ff', '#ff6100ff', '#ff6000ff', '#ff5f00ff', '#ff5e00ff', '#ff5d00ff', '#ff5c00ff', '#ff5b00ff', '#ff5a00ff', '#ff5900ff', '#ff5800ff', '#ff5700ff', '#ff5600ff', '#ff5500ff', '#ff5400ff', '#ff5300ff', '#ff5200ff', '#ff5100ff', '#ff5000ff', '#ff4f00ff', '#ff4d00ff', '#ff4c00ff', '#ff4b00ff', '#ff4a00ff', '#ff4900ff', '#ff4800ff', '#ff4700ff', '#ff4600ff', '#ff4500ff', '#ff4400ff', '#ff4300ff', '#ff4200ff', '#ff4100ff', '#ff4000ff', '#ff3f00ff', '#ff3e00ff', '#ff3d00ff', '#ff3c00ff', '#ff3b00ff', '#ff3a00ff', '#ff3900ff', '#ff3800ff', '#ff3700ff', '#ff3600ff', '#ff3500ff', '#ff3400ff', '#ff3300ff', '#ff3200ff', '#ff3100ff', '#ff3000ff', '#ff2f00ff', '#ff2e00ff', '#ff2d00ff', '#ff2c00ff', '#ff2b00ff', '#ff2a00ff', '#ff2900ff', '#ff2800ff', '#ff2600ff', '#ff2500ff', '#ff2400ff', '#ff2300ff', '#ff2200ff', '#ff2100ff', '#ff2000ff', '#ff1f00ff', '#ff1e00ff', '#ff1d00ff', '#ff1c00ff', '#ff1b00ff', '#ff1a00ff', '#ff1900ff', '#ff1800ff', '#ff1700ff', '#ff1600ff', '#ff1500ff', '#ff1400ff', '#ff1300ff', '#ff1200ff', '#ff1100ff', '#ff1000ff', '#ff0f00ff', '#ff0e00ff', '#ff0d00ff', '#ff0c00ff', '#ff0b00ff', '#ff0a00ff', '#ff0900ff', '#ff0800ff', '#ff0700ff', '#ff0600ff', '#ff0500ff', '#ff0400ff', '#ff0300ff', '#ff0200ff', '#ff0100ff', '#ff0000ff']);
+    
+
+    color_map_d10b8a0e49989acd29447b59be917705.x = d3.scale.linear()
+              .domain([52.05555555555556, 281.5])
+              .range([0, 450 - 50]);
+
+    color_map_d10b8a0e49989acd29447b59be917705.legend = L.control({position: 'topright'});
+    color_map_d10b8a0e49989acd29447b59be917705.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_d10b8a0e49989acd29447b59be917705.legend.addTo(map_7d82d3f03647c8d10398d9ac43cd2393);
+
+    color_map_d10b8a0e49989acd29447b59be917705.xAxis = d3.svg.axis()
+        .scale(color_map_d10b8a0e49989acd29447b59be917705.x)
+        .orient("top")
+        .tickSize(1)
+        .tickValues([52.05555555555556, 166.77777777777777, 281.5]);
+
+    color_map_d10b8a0e49989acd29447b59be917705.svg = d3.select(".legend.leaflet-control").append("svg")
+        .attr("id", 'legend')
+        .attr("width", 450)
+        .attr("height", 40);
+
+    color_map_d10b8a0e49989acd29447b59be917705.g = color_map_d10b8a0e49989acd29447b59be917705.svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(25,16)");
+
+    color_map_d10b8a0e49989acd29447b59be917705.g.selectAll("rect")
+        .data(color_map_d10b8a0e49989acd29447b59be917705.color.range().map(function(d, i) {
+          return {
+            x0: i ? color_map_d10b8a0e49989acd29447b59be917705.x(color_map_d10b8a0e49989acd29447b59be917705.color.domain()[i - 1]) : color_map_d10b8a0e49989acd29447b59be917705.x.range()[0],
+            x1: i < color_map_d10b8a0e49989acd29447b59be917705.color.domain().length ? color_map_d10b8a0e49989acd29447b59be917705.x(color_map_d10b8a0e49989acd29447b59be917705.color.domain()[i]) : color_map_d10b8a0e49989acd29447b59be917705.x.range()[1],
+            z: d
+          };
+        }))
+      .enter().append("rect")
+        .attr("height", 40 - 30)
+        .attr("x", function(d) { return d.x0; })
+        .attr("width", function(d) { return d.x1 - d.x0; })
+        .style("fill", function(d) { return d.z; });
+
+    color_map_d10b8a0e49989acd29447b59be917705.g.call(color_map_d10b8a0e49989acd29447b59be917705.xAxis).append("text")
+        .attr("class", "caption")
+        .attr("y", 21)
+        .text("Average Price");
+</script>
+</html>
