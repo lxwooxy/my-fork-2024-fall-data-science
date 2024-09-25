@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/Users/georginawoo/catkin_ws/devel/lib/python3.8/site-packages",
+        "/opt/miniconda3/envs/ROS/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/Users/georginawoo/catkin_ws/devel/lib/python3.8/site-packages",
+        "/opt/miniconda3/envs/ROS/lib/python3.8/site-packages"
+    ]
+}

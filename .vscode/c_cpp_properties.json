@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/Users/georginawoo/catkin_ws/devel/include/**",
+        "/opt/miniconda3/envs/ROS/include/**",
+        "/Users/georginawoo/catkin_ws/src/learning_ros/include/**",
+        "/Users/georginawoo/catkin_ws/src/turtlesim_helper/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
